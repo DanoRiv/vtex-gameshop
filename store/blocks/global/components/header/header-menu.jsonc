@@ -1,0 +1,122 @@
+{
+  "menu#header__menu": {
+    "title": "Menú",
+    "props": {
+      "blockClass": ["menu-desktop", "menu-mobile"],
+      "isActive": "true",
+      "activeClass": "menu-isActive",
+      "items": [
+        {
+          "id": "menu-item__home",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Inicio",
+            "text": "Inicio"
+          }
+        },
+        {
+          "id": "menu-item__about-us",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Quiénes somos",
+            "text": "Quiénes somos"
+          }
+        },
+        {
+          "id": "menu-item__support",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Soporte",
+            "text": "Soporte"
+          }
+        },
+        {
+          "id": "menu-item__store",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Tienda",
+            "text": "Tienda"
+          }
+        },
+        {
+          "id": "menu-item__pre-sale",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pre-Venta",
+            "text": "Pre-Venta"
+          }
+        },
+        {
+          "id": "menu-item__playstation",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Playstation",
+            "text": "Playstation"
+          }
+        },
+        {
+          "id": "menu-item__nintendo",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Nintendo",
+            "text": "Nintendo"
+          }
+        },
+        {
+          "id": "menu-item__xbox",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Xbox",
+            "text": "Xbox"
+          }
+        },
+        {
+          "id": "menu-item__accessories",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+          }
+        },
+        {
+          "id": "menu-item__log-in",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Acceder",
+            "text": "Acceder"
+          }
+        }
+      ]
+    }
+  }
+}

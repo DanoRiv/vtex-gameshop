@@ -1,0 +1,90 @@
+{
+  "flex-layout.row#home__shipping-info": {
+    "title": "Shipping information container",
+    "children": [
+      "flex-layout.col#home__shipping-info--one",
+      "flex-layout.col#home__shipping-info--two",
+      "flex-layout.col#home__shipping-info--three"
+    ],
+    "props": {
+      "verticalAlign": "center",
+      "horizontalAlign": "center",
+      "colGap": 5
+    }
+  },
+  "flex-layout.col#home__shipping-info--one": {
+    "title": "Shipping information column one",
+    "children": [
+      "image#shipping-info__image--one",
+      "rich-text#shipping-info__text--one"
+    ],
+    "props": {
+      "verticalAlign": "center",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#home__shipping-info--two": {
+    "title": "Shipping information column two",
+    "children": [
+      "image#shipping-info__image--two",
+      "rich-text#shipping-info__text--two"
+    ],
+    "props": {
+      "verticalAlign": "center",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#home__shipping-info--three": {
+    "title": "Shipping information column three",
+    "children": [
+      "image#shipping-info__image--three",
+      "rich-text#shipping-info__text--three"
+    ],
+    "props": {
+      "verticalAlign": "center",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#shipping-info__image--one": {
+    "title": "Shipping information free shipping",
+    "props": {
+      "src": "assets/img/home-info-free-shipping.png"
+    }
+  },
+  "rich-text#shipping-info__text--one": {
+    "title": "Shipping information free shipping",
+    "props": {
+      "text": "**PAGOS CONTRA ENTREGA** \n Por compras inferiores a **$300.000** si estás en él área metropolitana&#42;, puedes escoger pago contra entrega y pagar tu pedido en efectivo cuando recibas. **&#42;aplica para Medellín, Itagüi, Envigado, Sabaneta, La Estrella, Caldas y Bello**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "image#shipping-info__image--two": {
+    "title": "Shipping information affiliates",
+    "props": {
+      "src": "assets/img/home-info-affiliates.png"
+    }
+  },
+  "rich-text#shipping-info__text--two": {
+    "title": "Shipping information affiliates",
+    "props": {
+      "text": "**HAZ PARTE DE NUESTROS CLIENTES VIP** \n **Haz tu primera compra** y te conviertes en uno de nuestros clientes VIP, acumularás puntos, tendrás ofertas especiales y más beneficios. **¡ANÍMATE!**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "image#shipping-info__image--three": {
+    "title": "Shipping information shipping country",
+    "props": {
+      "src": "assets/img/home-info-shippingcountry.png"
+    }
+  },
+  "rich-text#shipping-info__text--three": {
+    "title": "Shipping information shipping country",
+    "props": {
+      "text": "**ENVIOS A TODO EL PAÍS** \n Queremos que puedas comprar desde cualquier parte del **país** y siempre estaremos atentos a que tu pedido se cumpla.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

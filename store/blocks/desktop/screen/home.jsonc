@@ -1,0 +1,7 @@
+{
+  "responsive-layout.desktop#home__main-categories--desktop": {
+    "title": "Main categories desktop",
+    "children": ["flex-layout.row#home__main-categories"]
+  }
+
+}

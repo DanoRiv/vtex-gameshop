@@ -1,0 +1,101 @@
+{
+  "flex-layout.row#home__categories--all": {
+    "title": "All categories",
+    "children": [
+      "flex-layout.col#home__categories--consoles",
+      "flex-layout.col#home__categories--accessories",
+      "flex-layout.col#home__categories--games",
+      "flex-layout.col#home__categories--controllers"
+    ]
+  },
+  "flex-layout.col#home__categories--consoles": {
+    "title": "consoles category",
+    "children": ["link#home__link-categories--consoles"]
+  },
+  "flex-layout.col#home__categories--accessories": {
+    "title": "accesories category",
+    "children": ["link#home__link-categories--accessories"]
+  },
+  "flex-layout.col#home__categories--games": {
+    "title": "games category",
+    "children": ["link#home__link-categories--games"]
+  },
+  "flex-layout.col#home__categories--controllers": {
+    "title": "controllers category",
+    "children": ["link#home__link-categories--controllers"]
+  },
+  "link#home__link-categories--consoles": {
+    "title": "consoles link",
+    "children": ["image#home__category-image--consoles", "rich-text#home__category-name--consoles"]
+  },
+  "link#home__link-categories--accessories": {
+    "title": "accesories link",
+    "children": ["image#home__category-image--accessories", "rich-text#home__category-name--accessories"]
+  },
+  "link#home__link-categories--games": {
+    "title": "games link",
+    "children": ["image#home__category-image--games", "rich-text#home__category-name--games"]
+  },
+  "link#home__link-categories--controllers": {
+    "title": "controllers link",
+    "children": ["image#home__category-image--controllers", "rich-text#home__category-name--controllers"]
+  },
+  "image#home__category-image--consoles": {
+    "title": "consoles category image",
+    "props": {
+      "src": "assets/img/home-category-consoles.png"
+    }
+  },
+  "rich-text#home__category-name--consoles": {
+    "title": "consoles category text",
+    "props": {
+      "text": "**Consolas** \n nro de productos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "image#home__category-image--accessories": {
+    "title": "accessories category image",
+    "props": {
+      "src": "assets/img/home-category-accessories.png"
+    }
+  },
+  "rich-text#home__category-name--accessories": {
+    "title": "accessories category text",
+    "props": {
+      "text": "**Accesorios** \n nro productos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "image#home__category-image--games": {
+    "title": "games category image",
+    "props": {
+      "src": "assets/img/home-category-games.png"
+    }
+  },
+  "rich-text#home__category-name--games": {
+    "title": "games category text",
+    "props": {
+      "text": "**Juegos** \n nro productos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "image#home__category-image--controllers": {
+    "title": "controllers category image",
+    "props": {
+      "src": "assets/img/home-category-controllers.png"
+    }
+  },
+  "rich-text#home__category-name--controllers": {
+    "title": "controllers category text",
+    "props": {
+      "text": "**Controles** \n nro productos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+
+
+}

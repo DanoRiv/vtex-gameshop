@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#home__tagline": {
+    "title": "Tagline section",
+    "children": ["rich-text#home__tagline--title"],
+    "props": {
+      "blockClass": "home__tagline"
+    }
+  },
+  "rich-text#home__tagline--title": {
+    "title": "Texto slogan",
+    "props": {
+      "text": "# Gameshop un mundo de videojuegos",
+      "blockClass": "tagline--title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

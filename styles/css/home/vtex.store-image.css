@@ -1,0 +1,11 @@
+/* .imageElement--home__category-logo {
+  transition: 1s ease;
+}
+
+.imageElement--home__category-logo:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform    : scale(1.2);
+  transform        : scale(1.2);
+  transition       : 1s ease;
+  /* transition    : filter .6s,opacity .6s,transform .6s,box-shadow .3s,-webkit-filter .6s,-webkit-transform .6s,-webkit-box-shadow .3s;
+} */

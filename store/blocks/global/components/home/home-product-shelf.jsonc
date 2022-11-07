@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#home__product-shelf": {
+    "children": ["flex-layout.col#home__product-shelf--column"]
+  },
+  "flex-layout.col#home__product-shelf--column": {
+    "children": [
+      "rich-text#home__product-shelf--title",
+      "rich-text#home__product-shelf--paragraph"
+    ]
+  },
+  "rich-text#home__product-shelf--title": {
+    "props": {
+      "text": "##### Los más vendidos"
+    }
+  },
+  "rich-text#home__product-shelf--paragraph": {
+    "props": {
+      "text": "Aqui va el shelf cuando aprenda a hacerlo "
+    }
+  }
+}

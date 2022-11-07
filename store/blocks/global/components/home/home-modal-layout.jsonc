@@ -1,0 +1,27 @@
+//esto es para tenerlo por si lo necesito más adelante
+
+{
+  "modal-trigger#home__modal--trigger": {
+    "children": ["modal-layout#home__modal--event"],
+    "props": {
+      "trigger": "event",
+      "customPixelEventName": "pageView"
+    }
+  },
+  "modal-layout#home__modal--event": {
+    "children": [
+      "modal-header#home__modal--event",
+      "rich-text#home__modal--event-content"
+    ]
+  },
+  "rich-text#home__modal--event-content":{
+    "props": {
+      "text": "Evento de DOM loaded"
+    }
+  },
+  "modal-header#home__modal--event": {
+    "props": {
+      "showCloseButton": true
+    }
+  }
+}

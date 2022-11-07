@@ -1,0 +1,16 @@
+{
+  "header-row#header__main--mobile": {
+    "title": "Main header mobile",
+    "children": [
+      "drawer#header__mobile--menu",
+      "header-spacer",
+      "logo#header__main--logo",
+      "header-spacer",
+      "login#header__login--mobile",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__main_mobile"
+    }
+  }
+}

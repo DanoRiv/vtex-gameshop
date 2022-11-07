@@ -1,0 +1,66 @@
+{
+  "flex-layout.row#home__main-categories": {
+    "title": "Categories banner",
+    "children": [
+      "flex-layout.col#home__main-categories--ps",
+      "flex-layout.col#home__main-categories--nintendo",
+      "flex-layout.col#home__main-categories--xbox"
+    ],
+    "props": {
+      "horizontalAlign": "around",
+      "verticalAlign": "center",
+      "blockClass": "home__main-categories"
+    }
+  },
+  "flex-layout.col#home__main-categories--ps": {
+    "title": "PS category link container",
+    "props": {
+      "blockClass": ["home__main-categories", "home__categories-ps"],
+      "verticalAlign": "center",
+      "horizontalAlign": "center",
+      "width": "30%"
+    },
+    "children": ["image#home__ps--logo"]
+  },
+  "flex-layout.col#home__main-categories--nintendo": {
+    "title": "Nintendo category link container",
+    "props": {
+      "blockClass": ["home__main-categories", "home__categories-nintendo"],
+      "verticalAlign": "center",
+      "horizontalAlign": "center",
+      "width": "30%"
+    },
+    "children": ["image#home__nintendo--logo"]
+  },
+  "flex-layout.col#home__main-categories--xbox": {
+    "title": "Xbox category link container",
+    "props": {
+      "blockClass": ["home__main-categories", "home__categories-xbox"],
+      "verticalAlign": "center",
+      "horizontalAlign": "center",
+      "width": "30%"
+    },
+    "children": ["image#home__xbox--logo"]
+  }
+  // "image#home__ps--logo": {
+  //   "title": "playstation logo",
+  //   "props": {
+  //     "src": "assets/img/home-ps-logo.png",
+  //     "maxHeight": "140px"
+  //   }
+  // },
+  // "image#home__nintendo--logo": {
+  //   "title": "nintendo logo",
+  //   "props": {
+  //     "src": "assets/img/home-nintendo-logo.png",
+  //     "maxHeight": "140px"
+  //   }
+  // },
+  // "image#home__xbox--logo": {
+  //   "title": "xbox logo",
+  //   "props": {
+  //     "src": "assets/img/home-xbox-logo.png",
+  //     "maxHeight": "140px"
+  //   }
+  // }
+}

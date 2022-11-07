@@ -1,0 +1,52 @@
+{
+  "flex-layout.row#home__main-categories--phone": {
+    "title": "Categories banner",
+    "children": ["flex-layout.col#main-categories__container--phone"],
+    "props": {
+      "horizontalAlign": "around",
+      "verticalAlign": "center",
+      "blockClass": "home__main-categories_phone"
+    }
+  },
+  "flex-layout.col#main-categories__container--phone": {
+    "title": "Main categories container",
+    "children": [
+      "flex-layout.row#main-categories_phone--ps",
+      "flex-layout.row#main-categories_phone--nintendo",
+      "flex-layout.row#main-categories_phone--xbox"
+    ],
+    "props": {
+      "blockClass": ["main-categories__container_phone"]
+    }
+  },
+  "flex-layout.row#main-categories_phone--ps": {
+    "title": "PS category link container",
+    "props": {
+      "blockClass": ["main-categories_phone", "home__categories-ps"]
+      // "verticalAlign": "center",
+      // "horizontalAlign": "center",
+      // "width": "70%"
+    },
+    "children": ["image#home__ps--logo"]
+  },
+  "flex-layout.row#main-categories_phone--nintendo": {
+    "title": "Nintendo category link container",
+    "props": {
+      "blockClass": ["main-categories_phone", "home__categories-nintendo"]
+      // "verticalAlign": "center",
+      // "horizontalAlign": "center",
+      // "width": "70%"
+    },
+    "children": ["image#home__nintendo--logo"]
+  },
+  "flex-layout.row#main-categories_phone--xbox": {
+    "title": "Xbox category link container",
+    "props": {
+      "blockClass": ["main-categories_phone", "home__categories-xbox"]
+      // "verticalAlign": "center",
+      // "horizontalAlign": "center",
+      // "width": "70%"
+    },
+    "children": ["image#home__xbox--logo"]
+  }
+}

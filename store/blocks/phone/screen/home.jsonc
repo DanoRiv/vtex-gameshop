@@ -1,0 +1,6 @@
+{
+  "responsive-layout.phone#home__main-categories--phone": {
+    "title": "Main categories phone",
+    "children": ["flex-layout.row#home__main-categories--phone"]
+  }
+}

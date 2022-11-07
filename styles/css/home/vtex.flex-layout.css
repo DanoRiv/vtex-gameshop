@@ -1,0 +1,89 @@
+.flexRow--home__tagline {
+  background-color: #000;
+}
+
+.flexRow--home__main-categories {
+  height: 14rem;
+  width : 100%;
+}
+
+.flexRowContent--home__main-categories {
+  padding-top   : 1.8rem;
+  padding-bottom: 1.5rem;
+}
+
+.flexCol--home__main-categories {
+  background-color: aliceblue;
+  height          : 160px;
+  justify-content : center;
+}
+
+.flexColChild--home__main-categories {
+  transition: 1s ease;
+}
+
+.flexColChild--home__main-categories:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform    : scale(1.1);
+  transform        : scale(1.1);
+  transition       : 1s ease;
+  /* transition    : filter .6s,opacity .6s,transform .6s,box-shadow .3s,-webkit-filter .6s,-webkit-transform .6s,-webkit-box-shadow .3s; */
+}
+
+.flexCol--main-categories__container_phone {
+  height: fit-content;
+}
+
+.flexColChild--main-categories__container_phone {
+  padding-top   : 1.5rem;
+  padding-bottom: 1.8rem;
+}
+
+.flexRow--main-categories_phone {
+  margin-right: 0;
+  right       : auto;
+}
+
+.flexRowContent--main-categories_phone {
+  background-color   : aqua;
+  /* width           : 80vw; */
+  height             : 160px;
+  justify-content    : center;
+  align-content      : center;
+}
+
+.flexRowContent--main-categories_phone {
+  transition: 1s ease;
+}
+
+.flexRowContent--main-categories_phone:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform    : scale(1.1);
+  transform        : scale(1.1);
+  transition       : 1s ease;
+  /* transition    : filter .6s,opacity .6s,transform .6s,box-shadow .3s,-webkit-filter .6s,-webkit-transform .6s,-webkit-box-shadow .3s; */
+}
+
+.flexCol--home__categories-ps {
+  background-color: #043394;
+}
+
+.flexCol--home__categories-nintendo {
+  background-color: #fc0204;
+}
+
+.flexCol--home__categories-xbox {
+  background-color: #047e04;
+}
+
+.flexRowContent--home__categories-ps {
+  background-color: #043394;
+}
+
+.flexRowContent--home__categories-nintendo {
+  background-color: #fc0204;
+}
+
+.flexRowContent--home__categories-xbox {
+  background-color: #047e04;
+}

@@ -1,0 +1,7 @@
+{
+  "responsive-layout.tablet#home__main-categories--tablet": {
+    "title": "Main categories tablet",
+    "children": ["flex-layout.row#home__main-categories"]
+  }
+
+}

@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1025px) {
+  .menuContainer--menu-mobile{
+    flex-direction: column;
+  }
+}
+
+.menuContainer--menu-desktop{
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  color: #033968;
+}

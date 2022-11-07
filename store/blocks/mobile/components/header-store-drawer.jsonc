@@ -1,0 +1,9 @@
+{
+  "drawer#header__mobile--menu": {
+    "title": "Mobile drawer",
+    "props": {
+      "blockClass": "header__mobile--menu"
+    },
+    "children": ["menu#header__menu"]
+  }
+}
