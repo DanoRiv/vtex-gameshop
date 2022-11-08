@@ -1,0 +1,46 @@
+{
+  "flex-layout.row#header__top--contents": {
+    "title": "Top header links container",
+    "children": [
+      "link#header__top--promo",
+      "link#header__top--location",
+      "link#header__top--contact-us",
+      "link#header__top--wishlist"
+    ],
+    "props": {
+      "blockClass": "header__top-links-container"
+    }
+  },
+  "link#header__top--promo": {
+    "title": "Top header link to promos",
+    "props": {
+      "href": "#",
+      "label": "Promociones",
+      "blockClass": "header__top-link"
+    }
+  },
+  "link#header__top--location": {
+    "title": "Top header link to locations",
+    "props": {
+      "href": "#",
+      "label": "¿Cómo llegar?",
+      "blockClass": "header__top-link"
+    }
+  },
+  "link#header__top--contact-us": {
+    "title": "Top header link to contact",
+    "props": {
+      "href": "#",
+      "label": "Contáctenos",
+      "blockClass": "header__top-link"
+    }
+  },
+  "link#header__top--wishlist": {
+    "title": "Top header link to wishlist",
+    "props": {
+      "href": "#",
+      "label": "Lista de Deseos",
+      "blockClass": "header__top-link"
+    }
+  }
+}

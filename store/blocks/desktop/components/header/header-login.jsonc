@@ -1,0 +1,15 @@
+{
+  "login#header__login--desktop": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": false,
+      "iconLabel": "Acceder/registrarse",
+      "logInButtonBehavior": "link",
+      "blockClass": "header__login-desktop"
+    }
+  }
+}

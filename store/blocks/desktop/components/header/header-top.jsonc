@@ -1,0 +1,13 @@
+{
+  "header-row#header__top--desktop": {
+    "title": "Top header desktop",
+    "children": [
+      "header-spacer",
+      "flex-layout.row#header__top--contents",
+      "login#header__login--desktop"
+    ],
+    "props": {
+      "blockClass": "header__top"
+    }
+  }
+}

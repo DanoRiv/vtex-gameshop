@@ -1,11 +1,24 @@
+
+.menuContainer--menu-desktop{
+  flex-wrap: wrap;
+
+}
+
+.menuItem--menu-desktop{
+  margin: 0 9px;
+}
+
+.styledLinkContent--menu-desktop{
+  text-transform: uppercase;
+  color: #033968;
+  font-weight: 700;
+  font-size: .8em;
+  letter-spacing: .02em;
+
+}
+
 @media only screen and (max-width: 1025px) {
   .menuContainer--menu-mobile{
     flex-direction: column;
   }
-}
-
-.menuContainer--menu-desktop{
-  flex-wrap: wrap;
-  text-transform: uppercase;
-  color: #033968;
 }

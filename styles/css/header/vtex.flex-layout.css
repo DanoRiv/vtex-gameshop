@@ -1,0 +1,5 @@
+.flexRowContent--header__top-links-container{
+  font-size: .8em;
+  width: fit-content;
+  flex-wrap: nowrap;
+}

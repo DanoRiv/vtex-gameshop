@@ -2,30 +2,8 @@
   "header-layout.desktop": {
     "title": "Desktop header",
     "children": [
+      "header-row#header__top--desktop",
       "header-row#header__main"
     ]
-  },
-  "header-row#header__main": {
-    "title": "Main header desktop",
-    "children": [
-      "logo#header__main--logo",
-      "menu#header__menu",
-      "header-spacer",
-      "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "header__main"
-    }
-  },
-  "logo#header__main--logo": {
-    "title": "Logo",
-    "props": {
-      "url": "assets/img/header-logo.png",
-      "width": 138,
-      "heigth": 100,
-      "mobileWidth": 97,
-      "mobileHeight": 70,
-      "href": "/"
-    }
   }
 }
