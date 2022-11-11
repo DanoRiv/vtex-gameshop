@@ -5,42 +5,36 @@
       "link#header__top--promo",
       "link#header__top--location",
       "link#header__top--contact-us",
-      "link#header__top--wishlist"
+      "flex-layout.col#header__top--wishlist",
+      "login#header__login--desktop"
     ],
     "props": {
-      "blockClass": "header__top-links-container"
+      "blockClass": "header__top-links-container",
+      "colGap": 1,
+      "colSizing": "auto",
+      "width": "40%"
     }
   },
-  "link#header__top--promo": {
-    "title": "Top header link to promos",
+  "flex-layout.col#header__top--wishlist": {
+    "title": "wishlist link",
+    "children": [
+      "flex-layout.row#header__top--wishlist"
+    ],
     "props": {
-      "href": "#",
-      "label": "Promociones",
-      "blockClass": "header__top-link"
+      "width": "40%"
     }
   },
-  "link#header__top--location": {
-    "title": "Top header link to locations",
-    "props": {
-      "href": "#",
-      "label": "¿Cómo llegar?",
-      "blockClass": "header__top-link"
-    }
+  "flex-layout.row#header__top--wishlist": {
+    "title": "wishlist link",
+    "children": [
+      "link#header__top--wishlist",
+      "icon#header__wishlist--icon"
+    ]
   },
-  "link#header__top--contact-us": {
-    "title": "Top header link to contact",
+  "icon#header__wishlist--icon": {
     "props": {
-      "href": "#",
-      "label": "Contáctenos",
-      "blockClass": "header__top-link"
-    }
-  },
-  "link#header__top--wishlist": {
-    "title": "Top header link to wishlist",
-    "props": {
-      "href": "#",
-      "label": "Lista de Deseos",
-      "blockClass": "header__top-link"
+      "id": "wishlist-icon",
+      "size": 13
     }
   }
 }

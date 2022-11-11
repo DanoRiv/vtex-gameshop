@@ -3,11 +3,53 @@
     "title": "Top header desktop",
     "children": [
       "header-spacer",
-      "flex-layout.row#header__top--contents",
-      "login#header__login--desktop"
+      "flex-layout.row#header__top--socials",
+      "flex-layout.row#header__top--contents"
     ],
     "props": {
-      "blockClass": "header__top"
+      "blockClass": "header__top",
+      "colSizing": "auto",
+      "width": "100%",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#header__top--socials": {
+    "children": [
+      "icon#header__socials--facebook",
+      "icon#header__socials--instagram",
+      "icon#header__socials--mail",
+      "icon#header__socials--phone"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "width": "20%"
+    }
+  },
+  "icon#header__socials--facebook": {
+    "props": {
+      "id": "bnd-facebook",
+      "size": 14
+    }
+  },
+  "icon#header__socials--instagram": {
+    "props": {
+      "id": "bnd-instagram",
+      "size": 16
+    }
+  },
+  "icon#header__socials--mail": {
+    "props": {
+      "id": "bnd-mail",
+      "size": 14
+    }
+  },
+  "icon#header__socials--phone": {
+    "props": {
+      "id": "bnd-phone",
+      "size": 9
     }
   }
 }

@@ -9,7 +9,7 @@
       "showIconProfile": false,
       "iconLabel": "Acceder/registrarse",
       "logInButtonBehavior": "link",
-      "blockClass": "header__login-desktop"
+      "labelClasses": "header__login-desktop"
     }
   }
 }
