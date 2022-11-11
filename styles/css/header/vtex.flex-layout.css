@@ -1,5 +1,9 @@
-.flexRowContent--header__top-links-container{
+.flexRow--header__top-links-container{
   font-size: .8em;
-  width: fit-content;
-  flex-wrap: nowrap;
+  width: 30%;
+}
+
+.flexRowContent--header__top-links-container{
+  padding: 0 0;
+  margin: 0 0;
 }

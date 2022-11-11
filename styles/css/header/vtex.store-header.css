@@ -1,0 +1,7 @@
+.headerRow--header__top{
+  margin-top: .5rem;
+}
+
+.headerRowContainer--header__top .headerSpacer{
+  width: 40%;
+}
