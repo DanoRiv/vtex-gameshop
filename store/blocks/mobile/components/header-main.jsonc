@@ -7,7 +7,7 @@
       "logo#header__main--logo",
       "header-spacer",
       "login#header__login--mobile",
-      "minicart.v2"
+      "minicart.v2#header__minicart--mobile"
     ],
     "props": {
       "blockClass": "header__main_mobile"
