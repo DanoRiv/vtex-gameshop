@@ -1,0 +1,13 @@
+{
+  "logo#header__main--logo": {
+    "title": "Logo",
+    "props": {
+      "url": "assets/img/header-logo.png",
+      "width": 138,
+      "heigth": 100,
+      "mobileWidth": 97,
+      "mobileHeight": 70,
+      "href": "/"
+    }
+  }
+}

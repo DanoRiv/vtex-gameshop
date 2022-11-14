@@ -1,0 +1,11 @@
+{
+  "search-bar#header__search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": [ "product-summary"]
+  }
+}

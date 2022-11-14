@@ -1,0 +1,28 @@
+{
+  "flex-layout.col#header__top--socials": {
+    "title": "Social media header column",
+    "children": [
+      "flex-layout.row#header__top--socials"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "10%"
+    }
+  },
+  "flex-layout.row#header__top--socials": {
+    "title": "Social media header container",
+    "children": [
+      "icon#header__socials--facebook",
+      "icon#header__socials--instagram",
+      "icon#header__socials--mail",
+      "icon#header__socials--phone"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "100%",
+      "colGap": 1,
+      "blockClass": "header__top-socials"
+    }
+  }
+}

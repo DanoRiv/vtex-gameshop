@@ -1,0 +1,5 @@
+.link--header__top-link {
+  text-decoration: none;
+  color          : rgba(102, 102, 102, .85);
+  font-size      : .8em;
+}

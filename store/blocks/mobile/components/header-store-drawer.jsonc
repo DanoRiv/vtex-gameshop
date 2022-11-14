@@ -4,6 +4,9 @@
     "props": {
       "blockClass": "header__mobile--menu"
     },
-    "children": ["menu#header__menu"]
+    "children": [
+      "search-bar#header__search-bar",
+      "menu#header__menu"
+    ]
   }
 }

@@ -1,0 +1,107 @@
+{
+  "flex-layout.col#header__top--links": {
+    "title": "Top header links column",
+    "children": [
+      "flex-layout.row#links__container"
+    ],
+    "props": {
+      "width": "90%"
+    }
+  },
+  "flex-layout.row#links__container": {
+    "title": "Top header links container",
+    "children": [
+      "flex-layout.col#link__container--promo",
+      "flex-layout.col#link__container--location",
+      "flex-layout.col#link__container--contact",
+      "flex-layout.col#link__container--wishlist",
+      "flex-layout.col#link__container--login"
+    ],
+    "props": {
+      "blockClass": "header__top-links-container",
+      "colGap": 1,
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#link__container--promo": {
+    "title": "promotions link container",
+    "children": ["link#header__top--promo"],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "link__container"
+    }
+  },
+  "flex-layout.col#link__container--location": {
+    "title": "location link container",
+    "children": ["link#header__top--location"],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "link__container"
+    }
+  },
+  "flex-layout.col#link__container--contact": {
+    "title": "contact us link container",
+    "children": ["link#header__top--contact-us"],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "link__container"
+    }
+  },
+  "flex-layout.col#link__container--wishlist": {
+    "title": "wishlist link container",
+    "children": ["flex-layout.row#header__top--wishlist"],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "link__container"
+    }
+  },
+  "flex-layout.col#link__container--login": {
+    "title": "login container",
+    "children": ["login#header__login--desktop"],
+    "props": {
+      "blockClass": "link__container"
+    }
+  },
+  "flex-layout.row#header__top--wishlist": {
+    "title": "wishlist link",
+    "children": [
+      "link#header__top--wishlist",
+      "icon#header__wishlist--icon"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  "link#header__top--promo": {
+    "title": "Top header link to promos",
+    "props": {
+      "href": "#",
+      "label": "Promociones",
+      "blockClass": ["header__top-link", "link-has-hover"]
+    }
+  },
+  "link#header__top--location": {
+    "title": "Top header link to locations",
+    "props": {
+      "href": "#",
+      "label": "¿Cómo llegar?",
+      "blockClass": ["header__top-link", "link-has-hover"]
+    }
+  },
+  "link#header__top--contact-us": {
+    "title": "Top header link to contact",
+    "props": {
+      "href": "#",
+      "label": "Contáctenos",
+      "blockClass": ["header__top-link", "link-has-hover"]
+    }
+  },
+  "link#header__top--wishlist": {
+    "title": "Top header link to wishlist",
+    "props": {
+      "href": "#",
+      "label": "Lista de Deseos",
+      "blockClass": ["header__top-link", "link-has-hover"]
+    }
+  }
+}

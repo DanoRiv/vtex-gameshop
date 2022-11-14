@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#header__top--contents": {
+    "title": "Top header content",
+    "children": [
+      "flex-layout.col#header__top--socials",
+      "flex-layout.col#header__top--links"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "header__top-contents"
+    }
+  }
+}

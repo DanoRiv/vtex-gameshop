@@ -1,0 +1,11 @@
+{
+  "minicart.v2#header__minicart--desktop": {
+    "props": {
+      "MinicartIcon": "icon-cart",
+      "variation": "link",
+      "itemCountMode": "total",
+      "quantityDisplay": "not-empty",
+      "openOnHover": true
+    }
+  }
+}
