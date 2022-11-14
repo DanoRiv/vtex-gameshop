@@ -1,40 +1,48 @@
-.buttonLink :global(.vtex-button){
-  border: 2px solid;
-  border-color:#00d084;
+.buttonLink :global(.vtex-button) {
+  border       : 1px solid;
+  border-color : #29c60d;
   border-radius: 100px;
-  padding: 0;
-  margin: 0;
-  color: #00d084;
+  padding      : 0;
+  margin       : 0 10px;
 }
 
-.buttonLink :global(.vtex-button):hover{
+.buttonLink :global(.vtex-button):hover {
   border-radius: 80px;
-  transition: transform .3s,border .3s,background .3s,box-shadow .3s,opacity .3s,color .3s,-webkit-transform .3s,-webkit-box-shadow .3s;
-  background: #0693e3;
+  transition   : transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s, -webkit-transform .3s, -webkit-box-shadow .3s;
+  background   : #046ec2;
+  border-color : #046ec2;
   color: #fff;
 }
 
-.container :global(.vtex-button__label){
+.profileIcon:hover{
+  transition   : transform .3s, box-shadow .3s, opacity .3s, color .3s, -webkit-transform .3s, -webkit-box-shadow .3s;
+  color        : #fff;
+}
+
+.container :global(.vtex-button__label) {
   padding: 18px;
-  margin: 0;
+  margin : 0;
 }
 
 @media only screen and (min-width: 1025px) {
-  .container :global(.vtex-button__label){
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0 8px;
-    font-size: .6em;
-    line-height: 1.6;
-    letter-spacing: .03em;
-    font-weight: bolder;
-  }
-  .buttonLink :global(.vtex-button){
-    border: 2px solid;
-    border-color:rgba(102,102,102,.85);
+  .buttonLink :global(.vtex-button) {
+    max-width    : 11rem;
+    max-height   : 2rem;
+    border       : 1px solid;
+    border-color : #C0C0C0;
     border-radius: 100px;
-    padding: 0;
-    margin: 0;
-    color: rgba(102,102,102,.85);
+    padding      : 0;
+    margin       : 0;
+    color        : #C0C0C0;
+  }
+
+  .label {
+    padding-left  : 0;
+    padding-right : 0;
+    margin        : 0 8px;
+    font-size     : .75em;
+    line-height   : 1.6;
+    letter-spacing: .03em;
+    font-weight   : 700;
   }
 }

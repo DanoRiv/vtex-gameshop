@@ -1,4 +1,15 @@
-.minicartContainer--header__minicart :global(.vtex-button){
-  background: #00d084;
+.minicartContainer :global(.vtex-button) {
+  background: #29c60d;
   border-radius: 50%;
+}
+
+.minicartQuantityBadge{
+  background   : #81d742;
+  top: -18px;
+  right: -12px;
+}
+
+.minicartContainer :global(.vtex-button):hover {
+  transition   : transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s, -webkit-transform .3s, -webkit-box-shadow .3s;
+  background   : #046ec2;
 }
