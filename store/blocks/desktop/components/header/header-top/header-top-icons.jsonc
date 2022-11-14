@@ -1,0 +1,32 @@
+{
+  "icon#header__socials--facebook": {
+    "props": {
+      "id": "bnd-facebook",
+      "size": 14
+    }
+  },
+  "icon#header__socials--instagram": {
+    "props": {
+      "id": "bnd-instagram",
+      "size": 16
+    }
+  },
+  "icon#header__socials--mail": {
+    "props": {
+      "id": "bnd-mail",
+      "size": 14
+    }
+  },
+  "icon#header__socials--phone": {
+    "props": {
+      "id": "bnd-phone",
+      "size": 9
+    }
+  },
+  "icon#header__wishlist--icon": {
+    "props": {
+      "id": "wishlist-icon",
+      "size": 13
+    }
+  }
+}
