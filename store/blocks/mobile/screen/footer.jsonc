@@ -1,0 +1,11 @@
+{
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer__info--section-one",
+      "footer-spacer",
+      "flex-layout.row#footer__categories-logos--section-two",
+      "footer-spacer",
+      "flex-layout.row#footer__payment-logos--section-three"
+    ]
+  }
+}

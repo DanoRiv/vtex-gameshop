@@ -1,0 +1,11 @@
+{
+  "logo#footer__logo": {
+    "title": "Footer logo",
+    "props": {
+      "url": "assets/img/footer-logo.png",
+      "width": 277,
+      "heigth": 258,
+      "title": "Gamestore Logo"
+    }
+  }
+}
