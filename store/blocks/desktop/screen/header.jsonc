@@ -3,7 +3,14 @@
     "title": "Desktop header",
     "children": [
       "header-row#header__top--desktop",
-      "header-row#header__main"
+      "header-row#header__main",
+      "header-row#header__bottom--search"
+    ]
+  },
+  "header-row#header__bottom--search":{
+    "children": [
+      "header-spacer",
+      "search-bar#header__search-bar"
     ]
   }
 }
