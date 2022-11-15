@@ -1,0 +1,23 @@
+{
+  "rich-text#section-one__store--title": {
+    "title": "Footer section one menu title ",
+    "props": {
+      "text": "Tienda",
+      "font": "t-heading-6"
+    }
+  },
+  "rich-text#section-one__customer-service--title": {
+    "title": "Footer section one menu title ",
+    "props": {
+      "text": "Servicio al Cliente",
+      "font": "t-heading-6"
+    }
+  },
+  "rich-text#section-one__about-us--title": {
+    "title": "Footer section one menu title ",
+    "props": {
+      "text": "Nosotros",
+      "font": "t-heading-6"
+    }
+  }
+}

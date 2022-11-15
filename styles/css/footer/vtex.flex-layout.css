@@ -1,0 +1,29 @@
+.flexRowContent--footer__section-one-container :global(.vtex-store-components-3-x-sizeMobile){
+  max-width: none;
+  max-height: none;
+}
+.flexRowContent--footer__section-two-container :global(.vtex-store-components-3-x-sizeMobile){
+  max-width: none;
+  max-height: none;
+}
+
+@media only screen and (max-width: 850px) {
+  .flexRowContent--footer__section-one-container{
+    flex-direction: column;
+  }
+  .flexRow--footer__section-two-container{
+    height: fit-content;
+  }
+  .flexRowContent--footer__section-two-container{
+    flex-direction: column;
+    padding: 1rem 0 2rem;
+  }
+  .flexRowContent--footer__section-two-container :global(.vtex-store-components-3-x-sizeMobile){
+    max-width: none;
+    max-height: none;
+  }
+  .flexRowContent--footer__section-one-container :global(.vtex-store-components-3-x-sizeMobile){
+    max-width: none;
+    max-height: none;
+  }
+}
