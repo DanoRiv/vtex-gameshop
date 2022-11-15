@@ -1,0 +1,16 @@
+{
+  "header-row#header__top--desktop": {
+    "title": "Top header desktop",
+    "children": [
+      "header-spacer",
+      "flex-layout.row#header__top--contents"
+    ],
+    "props": {
+      "blockClass": "header__top",
+      "colSizing": "auto",
+      "width": "100%",
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+    }
+  }
+}

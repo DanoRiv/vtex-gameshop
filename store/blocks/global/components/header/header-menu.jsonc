@@ -2,7 +2,7 @@
   "menu#header__menu": {
     "title": "Menú",
     "props": {
-      "blockClass": ["menu-desktop", "menu-mobile"],
+      "blockClass": ["menu-desktop", "menu-mobile", "link-has-hover"],
       "isActive": "true",
       "activeClass": "menu-isActive",
       "items": [

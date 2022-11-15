@@ -1,0 +1,14 @@
+{
+  "header-row#header__main": {
+    "title": "Main header desktop",
+    "children": [
+      "logo#header__main--logo",
+      "menu#header__menu",
+      "header-spacer",
+      "minicart.v2#header__minicart--desktop"
+    ],
+    "props": {
+      "blockClass": "header__main"
+    }
+  }
+}

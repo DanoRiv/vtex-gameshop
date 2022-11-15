@@ -4,13 +4,16 @@
     "children": [
       "drawer#header__mobile--menu",
       "header-spacer",
-      "logo#header__main--logo",
+      "header-force-center",
       "header-spacer",
       "login#header__login--mobile",
-      "minicart.v2"
+      "minicart.v2#header__minicart--mobile"
     ],
     "props": {
       "blockClass": "header__main_mobile"
     }
+  },
+  "header-force-center": {
+    "children": ["logo#header__main--logo"]
   }
 }
