@@ -43,6 +43,9 @@
       "textPosition": "CENTER"
     }
   },
+  "minicart-product-list": {
+    "blocks": ["product-list#minicart"]
+  },
   "flex-layout.row#minicart__footer":{
     "children": [
       "minicart-summary",
