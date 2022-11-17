@@ -1,0 +1,22 @@
+{
+  "product-list#minicart--desktop": {
+    "blocks": ["product-list-content-desktop"]
+  },
+  "product-list-content-desktop": {
+    "children": [
+      "flex-layout.row#minicart__products--desktop"
+    ]
+  },
+  "flex-layout.row#minicart__products--desktop": {
+    "children": [
+      "flex-layout.col#minicart__product--image",
+      "flex-layout.col#minicart__product--info",
+      "flex-layout.col#minicart__product--remove"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "minicart-products-desktop"
+    }
+  }
+
+}
