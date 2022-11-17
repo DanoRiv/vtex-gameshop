@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#minicart__footer":{
+    "title": "minicart footer",
+    "children": [
+      "flex-layout.col#minicart__footer--container"
+    ]
+  },
+  "flex-layout.col#minicart__footer--container": {
+    "title": "minicart footer container",
+    "children": [
+      "minicart-summary",
+      "minicart-checkout-button"
+    ]
+  }
+}
