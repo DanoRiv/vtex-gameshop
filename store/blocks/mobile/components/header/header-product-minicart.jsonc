@@ -27,8 +27,7 @@
   "flex-layout.col#minicart__product--info": {
     "children": [
       "vtex.product-list:product-name",
-      "product-quantity-label",
-      "price"
+      "flex-layout.row#product__unit-price"
     ],
     "props": {
       "blockClass": "minicart__product--info"
@@ -40,6 +39,16 @@
     ],
     "props": {
       "blockClass": "minicart__product--remove"
+    }
+  },
+  "flex-layout.row#product__unit-price": {
+    "children": [
+      "product-quantity-label",
+      "price"
+    ],
+    "props": {
+      "verticalAlign": "center",
+      "blockClass": "product__unit-price"
     }
   }
 }

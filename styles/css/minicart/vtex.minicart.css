@@ -1,0 +1,73 @@
+.minicartContainer :global(.vtex-button) {
+  background: #29c60d;
+  border-radius: 50%;
+}
+
+.minicartQuantityBadge{
+  background   : #81d742;
+  top: -18px;
+  right: -12px;
+}
+
+.minicartContainer :global(.vtex-button):hover {
+  transition   : transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s, -webkit-transform .3s, -webkit-box-shadow .3s;
+  background   : #046ec2;
+}
+
+.drawerStyles{
+  height: fit-content;
+}
+
+.minicartTitle{
+  text-align: center;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.minicartTitle::after{
+  content: "";
+  height: 3px;
+  display: block;
+  background-color: rgba(0,0,0,.1);
+  margin: 16px 0 16px;
+  width: 100%;
+  max-width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.closeIconContainer{
+  justify-content: flex-end;
+}
+.closeIconButton{
+  vertical-align: middle;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+}
+
+.minicartCheckoutButton :global(.vtex-button){
+  background-color: #046ec2;
+  border: 1px solid #046ec2;
+  border-radius: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label){
+  display: none;
+}
+.minicartCheckoutButton :global(.vtex-button)::after{
+  content: "Ver carrito";
+  visibility: visible;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: .97em;
+  letter-spacing: .03em;
+  font-weight: bolder;
+  text-align: center;
+  margin-left: auto;
+}
+
