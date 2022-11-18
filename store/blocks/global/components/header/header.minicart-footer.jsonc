@@ -9,7 +9,23 @@
     "title": "minicart footer container",
     "children": [
       "minicart-summary",
-      "minicart-checkout-button"
-    ]
+      "minicart-checkout-button",
+      "link#minicart-payment--button"
+    ],
+    "props": {
+      "blockClass": "minicart__footer-container"
+    }
+  },
+  "link#minicart-payment--button": {
+    "title": "Go to payment button",
+    "props": {
+      "label": "Finalizar Compra",
+      "href": "/checkout/#/email",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "regular"
+      }
+    }
   }
 }
