@@ -2,10 +2,23 @@
   "minicart.v2#header__minicart--desktop": {
     "props": {
       "MinicartIcon": "icon-cart",
-      "variation": "link",
+      "variation": "popupWithLink",
       "itemCountMode": "total",
       "quantityDisplay": "not-empty",
       "openOnHover": true
-    }
+    },
+    "children": [
+      "minicart-base-content#minicart--desktop"
+    ]
+  },
+  "minicart-base-content#minicart--desktop": {
+    "blocks": ["minicart-empty-state"],
+    "children": [
+      "minicart-product-list#minicart--desktop",
+      "flex-layout.row#minicart__footer"
+    ]
+  },
+  "minicart-product-list#minicart--desktop": {
+    "blocks": ["product-list#minicart--desktop"]
   }
 }

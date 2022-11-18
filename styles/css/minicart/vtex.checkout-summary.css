@@ -1,0 +1,15 @@
+.summarySmallDisclaimer{
+  display: none;
+}
+
+.summaryItemContainer{
+  border-top: 1px solid;
+  border-bottom: 2px solid;
+  border-color: #ececec;
+  padding: 10px 0;
+  margin-bottom: 0.5em;
+}
+
+.summaryItemContainer:nth-child(2n){
+  display: none;
+}
