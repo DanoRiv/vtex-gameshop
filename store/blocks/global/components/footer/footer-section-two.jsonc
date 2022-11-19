@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#footer__categories-logos--section-two": {
+    "title": "Section two brands logos",
+    "children": [
+      "logo#footer__play-logo",
+      "logo#footer__ps-logo",
+      "logo#footer__xbox-logo",
+      "logo#footer__nintendo-logo"
+    ],
+    "props": {
+      "blockClass": "footer__section-two-container"
+    }
+  }
+}

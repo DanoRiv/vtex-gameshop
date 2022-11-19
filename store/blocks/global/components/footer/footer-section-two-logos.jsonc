@@ -1,0 +1,34 @@
+{
+  "logo#footer__play-logo": {
+    "title": "Footer 'estado play' logo",
+    "props": {
+      "url": "assets/img/footer-play-logo.png",
+      "mobileWidth": 300,
+      "title": "Estado play Logo"
+    }
+  },
+  "logo#footer__ps-logo": {
+    "title": "Footer playstation logo",
+    "props": {
+      "url": "assets/img/footer-ps-logo.png",
+      "mobileWidth": 100,
+      "title": "Playstation Logo"
+    }
+  },
+  "logo#footer__xbox-logo": {
+    "title": "Footer xbox logo",
+    "props": {
+      "url": "assets/img/footer-xbox-logo.png",
+      "mobileWidth": 100,
+      "title": "Xbox Logo"
+    }
+  },
+  "logo#footer__nintendo-logo": {
+    "title": "Footer nintendo logo",
+    "props": {
+      "url": "assets/img/footer-nintendo-logo.png",
+      "mobileWidth": 100,
+      "title": "Nintendo Logo"
+    }
+  }
+}

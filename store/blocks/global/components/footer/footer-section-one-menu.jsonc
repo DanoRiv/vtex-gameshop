@@ -1,0 +1,168 @@
+{
+  "menu#section-one__store": {
+    "title": "Footer menu section one__store",
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-store",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "Tienda",
+            "text": "Tienda"
+          }
+        },
+        {
+          "id": "menu-item-playstation",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "Playstation",
+            "text": "Playstation"
+          }
+        },
+        {
+          "id": "menu-item-nintendo",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "Nintendo",
+            "text": "Nintendo"
+          }
+        },
+        {
+          "id": "menu-item-xbox",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "XBOX",
+            "text": "XBOX"
+          }
+        },
+        {
+          "id": "menu-item-pre-sale",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "Pre-venta",
+            "text": "Pre-venta"
+          }
+        },
+        {
+          "id": "menu-item-accesories",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+          }
+        }
+      ]
+    }
+  },
+  "menu#section-one__about-us": {
+    "title": "Footer menu section one__about-us",
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "Quiénes somos",
+            "text": "Quiénes somos"
+          }
+        },
+        {
+          "id": "menu-item-support",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "Soporte",
+            "text": "Soporte"
+          }
+        },
+        {
+          "id": "menu-item-returns",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "Términos de Devoluciones",
+            "text": "Términos de Devoluciones"
+          }
+        },
+        {
+          "id": "menu-item-warranty",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "Términos de Garantía",
+            "text": "Términos de Garantía"
+          }
+        },
+        {
+          "id": "menu-item-tech-service-tos",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "Términos y condiciones del servicio técnico",
+            "text": "Términos y condiciones del servicio técnico"
+          }
+        },
+        {
+          "id": "menu-item-tos",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "Términos de Servicio",
+            "text": "Términos de Servicio"
+          }
+        },
+        {
+          "id": "menu-item-terms-of-orders",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "Términos de Pedidos",
+            "text": "Términos de Pedidos"
+          }
+        },
+        {
+          "id": "menu-item-forum-politics",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "Políticas de Foro",
+            "text": "Políticas de Foro"
+          }
+        },
+        {
+          "id": "menu-item-data-treatment",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "Políticas de privacidad y tratamiento de datos",
+            "text": "Políticas de privacidad y tratamiento de datos"
+          }
+        }
+      ]
+    }
+  }
+}

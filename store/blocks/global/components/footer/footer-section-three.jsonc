@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#footer__payment-logos--section-three": {
+    "title": "Section three payment logos",
+    "children": [
+      "image#footer__payment-methods--image"
+    ],
+    "props": {
+      "blockClass": "footer__section-three-container"
+    }
+  },
+  "image#footer__payment-methods--image": {
+    "props": {
+      "src": "assets/img/footer-payment.png",
+      "maxHeight": "165",
+      "maxWidth": "1277"
+
+    }
+  }
+}

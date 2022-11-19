@@ -1,0 +1,69 @@
+{
+  "store.search": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#category": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#brand": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-list-price",
+      "product-selling-price",
+      "product-summary-sku-selector",
+      "add-to-cart-button"
+
+    ]
+  },
+  "product-summary-name": {
+    "props": {
+      "tag": "h3"
+    }
+  },
+  "product-list-price": {
+    "props": {
+      "alwaysShow": true
+    }
+  },
+  "product-selling-price": {
+    "props": {
+      "alwaysShow": true
+    }
+  },
+  "product-summary-sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": false
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "minicart.v2#header__minicart--mobile": {
+    "props": {
+      "MinicartIcon": "icon-cart",
+      "variation": "drawer",
+      "itemCountMode": "total",
+      "quantityDisplay": "not-empty",
+      "backdropMode": "visible",
+      "maxDrawerWidth": 260
+    },
+    "children": [
+      "minicart-base-content#minicart--mobile"
+    ]
+  },
+  "minicart-base-content#minicart--mobile": {
+    "blocks": ["minicart-empty-state"],
+    "children": [
+      "minicart-product-list#minicart--mobile",
+      "flex-layout.row#minicart__footer"
+    ]
+  },
+  "minicart-product-list#minicart--mobile": {
+    "blocks": ["product-list#minicart--mobile"]
+  }
+}
