@@ -37,7 +37,7 @@
   },
   "product-summary.shelf": {
     "children": [
-      "product-summary-image",
+      "flex-layout.row#image__quickview--container",
       "product-summary-name",
       "product-list-price",
       "product-selling-price",
@@ -45,6 +45,17 @@
       "add-to-cart-button"
 
     ]
+  },
+  "flex-layout.row#image__quickview--container": {
+    "title": "Shel image and quick view container",
+    "children": [
+      "product-summary-image",
+      "modal-trigger#global__quick-view"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": ["image__quickview", "show-on-hover"]
+    }
   },
   "product-summary-name": {
     "props": {
