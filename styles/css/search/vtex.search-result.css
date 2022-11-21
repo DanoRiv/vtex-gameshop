@@ -17,3 +17,7 @@
 .galleryItem:hover :global(.vtex-modal-layout-0-x-triggerContainer){
   height: 1.5em;
 }
+
+.orderByButton{
+  justify-content: center;
+}

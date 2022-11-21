@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#department__header":{
+    "title": "Search result header",
+    "children": [
+      "header-spacer",
+      "flex-layout.col#department__breadcrumb",
+      "order-by.v2"
+    ],
+    "props": {
+      "verticalAlign": "center",
+      "colSizing": "equal",
+      "blockClass": "department__header"
+    }
+  }
+}

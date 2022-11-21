@@ -1,0 +1,9 @@
+{
+  "search-result-layout.desktop#desktop__department": {
+    "title": "Search result layout desktop department",
+    "children": [
+      "flex-layout.row#department__header",
+      "flex-layout.row#department__results"
+    ]
+  }
+}
