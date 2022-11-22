@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#department__results": {
+    "title": "department results container",
+    "children": [
+      "flex-layout.col#department__results--filter",
+      "flex-layout.col#department__results--content"
+    ]
+  },
+  "flex-layout.col#department__results--filter": {
+    "title": "department results filter",
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#department__results--content": {
+    "title": "department results content",
+    "children": ["search-content#results__content--products"],
+    "props": {
+      "width": "75%"
+    }
+  }
+}

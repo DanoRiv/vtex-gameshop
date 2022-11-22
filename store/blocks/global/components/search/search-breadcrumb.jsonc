@@ -1,0 +1,17 @@
+{
+  "flex-layout.col#department__breadcrumb": {
+    "title": "Search result breadcrumb",
+    "children": ["breadcrumb.search#department__breadcrumb"],
+    "props": {
+      "blockClass": "department__breadcrumb-container",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "breadcrumb.search#department__breadcrumb":{
+    "title": "Search breadcrumb",
+    "props": {
+      "showOnMobile": true
+    }
+  }
+}

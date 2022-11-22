@@ -1,5 +1,16 @@
-.flexRowContent--image__quickview{
+.flexRow--department__header {
+  width           : 100%;
+  background-color: #033968;
+  text-shadow     : 1px 1px 1px rgb(0 0 0 / 20%);
+
+}
+
+.flexRow--department__header {
+  padding: 20px 0;
+}
+
+.flexRowContent--image__quickview {
   flex-direction: column;
-  align-items: center;
-  position: relative;
+  align-items   : center;
+  position      : relative;
 }
