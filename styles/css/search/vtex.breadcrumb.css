@@ -1,24 +1,30 @@
-.container{
+.container {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight   : bold;
   letter-spacing: 0;
-  padding: 0;
+  padding       : 0;
+  font-size     : 1.15em;
 }
-.homeIcon{
+
+.homeIcon {
   display: none;
 }
-.caretIcon{
+
+.caretIcon {
   display: none;
 }
-.arrow::before{
+
+.arrow::before {
   content: "/";
-  color: #f1f1f1;
+  color  : #f1f1f1;
 }
-.homeLink::after{
-  content: "Inicio";
-  color: #fff;
+
+.homeLink::after {
+  content    : "Inicio";
+  color      : #fff;
   font-weight: normal;
 }
-.link{
+
+.link {
   color: #f1f1f1;
 }
