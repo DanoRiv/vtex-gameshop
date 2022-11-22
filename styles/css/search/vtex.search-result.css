@@ -1,6 +1,6 @@
-/* .galleryItem{
-  position: relative;
-} */
+.galleryItem{
+  margin: 30px 0;
+}
 
 .galleryItem :global(.vtex-modal-layout-0-x-triggerContainer) {
   position        : absolute;

@@ -13,6 +13,7 @@
   "flex-layout.row#image__quickview--container": {
     "title": "Shelf image and quick view container",
     "children": [
+      "add-to-list-btn",
       "product-summary-image",
       "modal-trigger#global__quick-view"
     ],
