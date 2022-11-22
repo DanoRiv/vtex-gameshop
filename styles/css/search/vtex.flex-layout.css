@@ -14,3 +14,7 @@
   align-items   : center;
   position      : relative;
 }
+
+.flexCol--results__filter{
+  margin-left: 1rem;
+}

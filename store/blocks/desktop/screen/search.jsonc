@@ -4,6 +4,12 @@
     "children": [
       "flex-layout.row#department__header--desktop",
       "flex-layout.row#department__results"
-    ]
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true
+    }
   }
 }

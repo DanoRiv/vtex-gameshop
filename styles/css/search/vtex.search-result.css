@@ -67,6 +67,51 @@
   font-weight   : bold;
 }
 
+.filtersWrapper{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.filter__container--priceRange::before{
+  content: "Filtrar por precio";
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+  color: #777;
+}
+
+.filterTitle{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+  color: #777;
+}
+.filter__container--priceRange .filterTitle{
+  display: none;
+}
+.filterAvailable{
+  padding: .2rem 0 .5rem;
+}
+.filterAvailable::after{
+  content: " ";
+  background-color: rgba(0,0,0,.1);
+  height: 3px;
+  display: block;
+  margin: .5em 0 .3em;
+  width: 100%;
+  max-width: 30px;
+}
+
+.filter__container--title{
+  display: none;
+}
+.filtersWrapper .filter__container--category-2{
+  order: 1;
+}
+.filtersWrapper .filter__container--priceRange{
+  order: 2;
+}
+
 @media screen and (max-width: 1025px) {
   .orderByButton{
     margin: 16px 0;
