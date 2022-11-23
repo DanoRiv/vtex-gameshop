@@ -10,7 +10,7 @@
   "flex-layout.col#results__header": {
     "children": [
       "flex-layout.row#department__breadcrumb",
-      "filter-navigator.v3",
+      "filter-navigator.v3#results__filter",
       "order-by.v2"
     ],
     "props": {

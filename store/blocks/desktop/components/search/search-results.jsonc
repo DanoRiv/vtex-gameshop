@@ -10,7 +10,7 @@
     "title": "department results filter",
     "children": [
       "search-bar#results__filter--searchbar",
-      "filter-navigator.v3"
+      "filter-navigator.v3#results__filter"
     ],
     "props": {
       "width": "25%",
