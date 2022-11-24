@@ -15,28 +15,32 @@
     ],
     "props": {
       "width": "100%",
-      "blockClass": ["ph3"]
+      "blockClass": "about-section-one"
     }
   },
   "flex-layout.col#section__one--text": {
     "title": "About us section one text",
     "children": [
       "rich-text#section__one--title",
-      "rich-text#us--title",
+      "rich-text#us--subtitle",
       "rich-text#us--paragraph",
-      "rich-text#mission--title",
+      "rich-text#mission--subtitle",
       "rich-text#mission--paragraph",
-      "rich-text#vision--title",
+      "rich-text#vision--subtitle",
       "rich-text#vision--paragraph",
-      "rich-text#location--title",
+      "rich-text#location--subtitle",
       "rich-text#location--paragraph"
-    ]
+    ],
+    "props": {
+      "blockClass": "section-one-text"
+    }
   },
   "flex-layout.col#section__one--image": {
     "title": "About us section one image",
     "children": ["image#section__one--image"],
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "section-one-image"
     }
   },
   "image#section__one--image": {
@@ -49,7 +53,11 @@
   //---------------------------------------------------------//
   "flex-layout.row#about-us__section--two": {
     "title": "About us section two",
-    "children": ["flex-layout.col#section__two--values"]
+    "children": ["flex-layout.col#section__two--values"],
+    "props": {
+      "blockClass": "about-section-two",
+      "width": "100%"
+    }
   },
 
   "flex-layout.col#section__two--values": {
@@ -59,12 +67,18 @@
       "flex-layout.row#corporate__values--text"
     ],
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "horizontalAlign": "center",
+      "blockClass": "corporate-values"
     }
   },
   "flex-layout.row#corporate__values--title": {
     "title": "Corporate values title",
-    "children": ["rich-text#corporate__values--title"]
+    "children": ["rich-text#corporate__values--title"],
+    "props": {
+      "blockClass": "corporate__values-title",
+      "width": "100%"
+    }
   },
   "flex-layout.row#corporate__values--text": {
     "title": "Corporate values",
@@ -75,7 +89,9 @@
     ],
     "props": {
       "width": "100%",
-      "colSizing": "equal"
+      "fullWidth": true,
+      "colSizing": "equal",
+      "blockClass": "corporate__values-text"
     }
   }
   ,

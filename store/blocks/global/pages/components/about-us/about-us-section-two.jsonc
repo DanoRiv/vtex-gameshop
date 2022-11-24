@@ -3,7 +3,9 @@
     "title": "Corporate values title",
     "props": {
       "text": "Nuestros Valores",
-      "font": "t-heading-2"
+      "font": "t-heading-2",
+      "textAlignment": "CENTER",
+      "blockClass": "section-two-title"
     }
   },
   "rich-text#values-column__one--values":{
@@ -11,7 +13,8 @@
     "props": {
       "text": "Honestidad \n Transparencia \n Ética",
       "font": "t-heading-3",
-      "textAlignment": "CENTER"
+      "textAlignment": "CENTER",
+      "blockClass": "section-two-values"
     }
   },
   "rich-text#values-column__two--values":{
@@ -19,7 +22,8 @@
     "props": {
       "text": "Responsabilidad \n Respeto \n   Excelencia",
       "font": "t-heading-3",
-      "textAlignment": "CENTER"
+      "textAlignment": "CENTER",
+      "blockClass": "section-two-values"
     }
   },
   "rich-text#values-column__three--values":{
@@ -27,7 +31,8 @@
     "props": {
       "text": "Calidad \n Integridad \n Compromiso",
       "font": "t-heading-3",
-      "textAlignment": "CENTER"
+      "textAlignment": "CENTER",
+      "blockClass": "section-two-values"
     }
   }
 }

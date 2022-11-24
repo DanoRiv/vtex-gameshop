@@ -3,15 +3,17 @@
     "title": "About us title",
     "props": {
       "text": "¿Quiénes Somos?",
-      "font": "t-heading-1"
+      "font": "t-heading-1",
+      "blockClass": "section-one-title"
     }
   },
-  "rich-text#us--title": {
-    "title": "section one text - us title",
+  "rich-text#us--subtitle": {
+    "title": "section one text - us subtitle",
     "props": {
       "text": "Nosotros",
       "font": "t-heading-2",
-      "textAlignment": "LEFT"
+      "textAlignment": "LEFT",
+      "blockClass": "section-one-subtitle"
     }
   },
   "rich-text#us--paragraph": {
@@ -19,15 +21,17 @@
     "props": {
       "text": "Somos una tienda Gamer especializada con más de **8 años** de trayectoria en el mercado, destacada por ofrecer a nuestros Gamers la más completa asesoría. En nuestra tienda podrás encontrar una amplia oferta de productos, entre consolas, juegos, accesorios y tecnología en general, con los más altos estándares de calidad y un excelente servicio al cliente. ¡Nos encanta darte gusto!",
       "font": "t-body",
-      "textAlignment": "LEFT"
+      "textAlignment": "LEFT",
+      "blockClass": "section-one-paragraph"
     }
   },
-  "rich-text#mission--title": {
-    "title": "section one text - mission title",
+  "rich-text#mission--subtitle": {
+    "title": "section one text - mission subtitle",
     "props": {
       "text": "Misión",
       "font": "t-heading-2",
-      "textAlignment": "LEFT"
+      "textAlignment": "LEFT",
+      "blockClass": "section-one-subtitle"
     }
   },
   "rich-text#mission--paragraph": {
@@ -35,15 +39,17 @@
     "props": {
       "text": "Nuestra misión es ofrecer una amplia variedad de productos especializados para satisfacer todas las necesidades y deseos de nuestros Gamers, brindando la mejor experiencia de compra, con excelente servicio y cultura.",
       "font": "t-body",
-      "textAlignment": "LEFT"
+      "textAlignment": "LEFT",
+      "blockClass": "section-one-paragraph"
     }
   },
-  "rich-text#vision--title": {
-    "title": "section one text - vision title",
+  "rich-text#vision--subtitle": {
+    "title": "section one text - vision subtitle",
     "props": {
       "text": "Visión",
       "font": "t-heading-2",
-      "textAlignment": "LEFT"
+      "textAlignment": "LEFT",
+      "blockClass": "section-one-subtitle"
     }
   },
   "rich-text#vision--paragraph": {
@@ -51,15 +57,17 @@
     "props": {
       "text": "Ser la tienda líder en la ciudad para el año 2020 y posicionarnos en el mercado nacional para el año 2024, apoyados en un proceso de mejora continua y en una excelente cultura de servicio al cliente, con ética, responsabilidad, honestidad e integridad.",
       "font": "t-body",
-      "textAlignment": "LEFT"
+      "textAlignment": "LEFT",
+      "blockClass": "section-one-paragraph"
     }
   },
-  "rich-text#location--title": {
-    "title": "section one text - location title",
+  "rich-text#location--subtitle": {
+    "title": "section one text - location subtitle",
     "props": {
       "text": "Nuestra tienda",
       "font": "t-heading-2",
-      "textAlignment": "LEFT"
+      "textAlignment": "LEFT",
+      "blockClass": "section-one-subtitle"
     }
   },
   "rich-text#location--paragraph": {
@@ -67,7 +75,8 @@
     "props": {
       "text": "**Carrera 48 10-45 Centro Comercial Monterrey Local 092.**",
       "font": "t-body",
-      "textAlignment": "LEFT"
+      "textAlignment": "LEFT",
+      "blockClass": "section-one-paragraph"
     }
   }
 }
