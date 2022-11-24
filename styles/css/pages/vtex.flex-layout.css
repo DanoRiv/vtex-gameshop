@@ -1,0 +1,25 @@
+.flexRow--about-section-one {
+  padding-top: 30px;
+}
+
+.flexCol--section-one-text {
+  padding: 0 70px 50px;
+}
+
+.flexRow--about-section-two {
+  padding: 0 15px 30px;
+}
+
+.flexColChild--corporate-values {
+  margin : 0;
+  padding: 0 15px 30px;
+  width  : 100%;
+}
+
+.flexRow--corporate__values-title {
+  padding-left : 0;
+  padding-right: 0;
+  margin-left  : -15px;
+  margin-right : -15px;
+  width        : auto;
+}

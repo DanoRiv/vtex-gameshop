@@ -1,0 +1,38 @@
+{
+  "rich-text#corporate__values--title": {
+    "title": "Corporate values title",
+    "props": {
+      "text": "Nuestros Valores",
+      "font": "t-heading-2",
+      "textAlignment": "CENTER",
+      "blockClass": "section-two-title"
+    }
+  },
+  "rich-text#values-column__one--values":{
+    "title": "Corporate values column one",
+    "props": {
+      "text": "Honestidad \n Transparencia \n Ética",
+      "font": "t-heading-3",
+      "textAlignment": "CENTER",
+      "blockClass": "section-two-values"
+    }
+  },
+  "rich-text#values-column__two--values":{
+    "title": "Corporate values column two",
+    "props": {
+      "text": "Responsabilidad \n Respeto \n   Excelencia",
+      "font": "t-heading-3",
+      "textAlignment": "CENTER",
+      "blockClass": "section-two-values"
+    }
+  },
+  "rich-text#values-column__three--values":{
+    "title": "Corporate values column three",
+    "props": {
+      "text": "Calidad \n Integridad \n Compromiso",
+      "font": "t-heading-3",
+      "textAlignment": "CENTER",
+      "blockClass": "section-two-values"
+    }
+  }
+}
