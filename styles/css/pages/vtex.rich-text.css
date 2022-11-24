@@ -1,0 +1,64 @@
+.paragraph--section-one-title {
+  font-size: 32px;
+}
+
+.paragraph--section-one-title::after {
+  content  : "";
+  clear    : both;
+  max-width: 292px;
+  height   : 3px;
+  display  : block;
+  color    : #777;
+  margin   : 1em 0 1em;
+  width    : 100%;
+}
+
+.paragraph--section-one-title,
+.paragraph--section-one-subtitle {
+  color      : #033968;
+  line-height: 1.3;
+}
+
+.paragraph--section-one-subtitle {
+  font-size: 26px;
+  margin   : 0 0 0.5em;
+}
+
+.paragraph--section-one-paragraph {
+  display            : block;
+  margin-block-start : 1em;
+  margin-block-end   : 1em;
+  margin-inline-start: 0px;
+  margin-inline-end  : 0px;
+  text-align         : justify;
+  color              : #777;
+  line-height        : 1.6;
+  margin-bottom      : 1.3em;
+  font-weight        : 400;
+}
+
+/* SECTION TWO */
+
+.container--section-two-values,
+.container--section-two-title {
+  justify-content: center;
+}
+
+.paragraph--section-two-title {
+  color         : #046EC2;
+  font-size     : 26px;
+  line-height   : 1.3;
+  margin-top    : 0;
+  margin-bottom : 0.5em;
+  text-rendering: optimizeSpeed;
+}
+
+.paragraph--section-two-values {
+  font-size     : 20px;
+  color         : #555;
+  width         : 100%;
+  margin-top    : 0;
+  margin-bottom : 0.5em;
+  line-height   : 1.8;
+  text-rendering: optimizeSpeed;
+}
