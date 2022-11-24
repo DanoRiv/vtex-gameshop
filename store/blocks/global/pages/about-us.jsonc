@@ -1,0 +1,102 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "flex-layout.row#about-us__section--one",
+      "flex-layout.row#about-us__section--two"
+    ]
+  },
+
+  //---------------------------------------------------------//
+  "flex-layout.row#about-us__section--one": {
+    "title": "About us section one",
+    "children": [
+      "flex-layout.col#section__one--text",
+      "flex-layout.col#section__one--image"
+    ],
+    "props": {
+      "width": "100%",
+      "blockClass": ["ph3"]
+    }
+  },
+  "flex-layout.col#section__one--text": {
+    "title": "About us section one text",
+    "children": [
+      "rich-text#section__one--title",
+      "rich-text#us--title",
+      "rich-text#us--paragraph",
+      "rich-text#mission--title",
+      "rich-text#mission--paragraph",
+      "rich-text#vision--title",
+      "rich-text#vision--paragraph",
+      "rich-text#location--title",
+      "rich-text#location--paragraph"
+    ]
+  },
+  "flex-layout.col#section__one--image": {
+    "title": "About us section one image",
+    "children": ["image#section__one--image"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "image#section__one--image": {
+    "title": "about us image",
+    "props": {
+      "src": "assets/img/about-us-photo.png"
+    }
+  },
+
+  //---------------------------------------------------------//
+  "flex-layout.row#about-us__section--two": {
+    "title": "About us section two",
+    "children": ["flex-layout.col#section__two--values"]
+  },
+
+  "flex-layout.col#section__two--values": {
+    "title": "About us section two corporate values",
+    "children": [
+      "flex-layout.row#corporate__values--title",
+      "flex-layout.row#corporate__values--text"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#corporate__values--title": {
+    "title": "Corporate values title",
+    "children": ["rich-text#corporate__values--title"]
+  },
+  "flex-layout.row#corporate__values--text": {
+    "title": "Corporate values",
+    "children": [
+      "flex-layout.col#corporate__values--one",
+      "flex-layout.col#corporate__values--two",
+      "flex-layout.col#corporate__values--three"
+    ],
+    "props": {
+      "width": "100%",
+      "colSizing": "equal"
+    }
+  }
+  ,
+  "flex-layout.col#corporate__values--one": {
+    "title": "Corporate values column one",
+    "children": [
+      "rich-text#values-column__one--values"
+    ]
+  },
+  "flex-layout.col#corporate__values--two": {
+    "title": "Corporate values column two",
+    "children": [
+      "rich-text#values-column__two--values"
+    ]
+  },
+  "flex-layout.col#corporate__values--three": {
+    "title": "Corporate values column three",
+    "children": [
+      "rich-text#values-column__three--values"
+    ]
+  }
+
+  //---------------------------------------------------------//
+}
