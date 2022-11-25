@@ -13,10 +13,10 @@
   "flex-layout.row#header__top--socials": {
     "title": "Social media header container",
     "children": [
-      "icon#header__socials--facebook",
-      "icon#header__socials--instagram",
-      "icon#header__socials--mail",
-      "icon#header__socials--phone"
+      "link#socials__facebook--link",
+      "link#socials__instagram--link",
+      "link#socials__email--link",
+      "link#socials__telephone--link"
     ],
     "props": {
       "horizontalAlign": "center",
@@ -24,5 +24,40 @@
       "colGap": 1,
       "blockClass": "header__top-socials"
     }
+  },
+  "link#socials__facebook--link":{
+    "title": "social media facebook link",
+    "props": {
+      "href": "https://www.facebook.com/gameshopvideojuegos/",
+      "target": "_blank",
+      "blockClass": "socials__link"
+    },
+    "children": ["icon#header__socials--facebook"]
+  },
+  "link#socials__instagram--link":{
+    "title": "social media facebook link",
+    "props": {
+      "href": "https://www.instagram.com/gameshop_colombia/?hl=es",
+      "target": "_blank",
+      "blockClass": "socials__link"
+    },
+    "children": ["icon#header__socials--instagram"]
+  },
+  "link#socials__email--link":{
+    "title": "social media facebook link",
+    "props": {
+      "href": "mailto:pedidos@gameshopvideojuegos.com",
+      "blockClass": "socials__link"
+    },
+    "children": ["icon#header__socials--mail"]
+  },
+  "link#socials__telephone--link":{
+    "title": "social media facebook link",
+    "props": {
+      "href": "tel:3234239023",
+      "blockClass": "socials__link"
+    },
+    "children": ["icon#header__socials--phone"]
   }
+
 }
