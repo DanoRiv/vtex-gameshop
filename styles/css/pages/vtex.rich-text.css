@@ -62,3 +62,23 @@
   line-height   : 1.8;
   text-rendering: optimizeSpeed;
 }
+
+/* warranty policy page */
+
+.wrapper--policy__title{
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+.paragraph--policy__title{
+  font-size: 28px;
+  font-weight: bolder;
+  color: #555555;
+}
+.paragraph--policy__content{
+  text-align: justify;
+  margin-top: 0;
+  margin-bottom: 1.3em;
+  line-height: 1.6;
+  color: #777;
+}

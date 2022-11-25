@@ -1,0 +1,52 @@
+{
+  "store.custom#warranty-policy": {
+    "blocks": ["flex-layout.row#warranty__policy"]
+  },
+  "flex-layout.row#warranty__policy": {
+    "title": "warranty policy page",
+    "children": ["flex-layout.col#warranty__policy"],
+    "props": {
+      "blockClass": "warranty__policy-page"
+    }
+  },
+  "flex-layout.col#warranty__policy": {
+    "title": "warranty policy container",
+    "children": [
+      "flex-layout.row#warranty__policy---title",
+      "flex-layout.row#warranty__policy--content"
+    ],
+    "props": {
+      "blockClass": "warranty__policy-container"
+    }
+  },
+  "flex-layout.row#warranty__policy---title": {
+    "title": "Policy title",
+    "children": ["rich-text#warranty__policy--title"],
+    "props": {
+      "blockClass": "warranty__policy-title"
+    }
+  },
+  "flex-layout.row#warranty__policy--content": {
+    "title": "Policy content",
+    "children": ["rich-text#warranty__policy--content"],
+    "props": {
+      "blockClass": "warranty__policy-content"
+    }
+  },
+  "rich-text#warranty__policy--title": {
+    "title": "title",
+    "props": {
+      "text": "Términos y condiciones de garantía",
+      "font": "t-heading-1",
+      "textAlignment": "CENTER",
+      "blockClass": "policy__title"
+    }
+  },
+  "rich-text#warranty__policy--content": {
+    "title": "content",
+    "props": {
+      "text": "Los tiempos de garantía son de doce (12) meses para consolas, tres (3) meses para accesorios y treinta (30) días para videojuegos físicos, cables, cargadores y auriculares o según lo establecido en la factura de compra. \n  \n Para hacer efectiva la garantía es indispensable presentar la factura de compra. En caso de no tenerla se puede solicitar una copia de la factura, solo si el cliente está registrado en nuestra base de datos y con esto tampoco se garantiza la validación o reimpresión de la misma. En cualquier caso, el cliente es el único y total responsable por la conservación de la factura de compra. \n  \n Así mismo, se deben conservar los empaques en buen estado y los sellos de garantía deben estar intactos y no estar rotos o violentados. \n  \n La atención de garantías es de lunes a jueves hasta las 12:00 pm, esto para poder brindar atención inmediata. Si la reclamación se realiza fuera de ese horario, se deben dejar los productos para la posterior revisión. \n  \n La garantía cubre defectos de fabricación. En ningún caso cubrirá daños causados por el uso inadecuado, humedad, golpes, sobre voltajes, cortos o descargas eléctricas. \n  \n La garantía de cualquier producto estará sujeta a un diagnostico técnico y la solicitud la responderemos en un tiempo máximo de diez (10) días hábiles siguientes a la recepción, o antes si es posible. \n  \n En caso de ser aprobada la garantía, se realizará la reparación totalmente gratuita del producto. Este proceso se realizará dentro de los treinta (30) días hábiles siguientes a la recepción del producto. Si este no admite reaparición se procederá a su reposición o a la devolución del precio pagado. \n  \n En caso de repetirse la falla, a elección del cliente, se procederá a una nueva reparación, la devolución total del precio pagado o al cambio del producto por otro similar (Artículo 11 de la Ley 1480 del 2011). \n  \n Si la compra no se realiza de manera presencial, se cuenta con 5 días para arrepentirse de dicha compra, según ley de retracto de la SIC (Ley 1480 del 2011). \n  \n Las devoluciones o reclamaciones de garantía se deben presentar personalmente en nuestro punto de venta y por ningún motivo se asumirán costos de envío o transporte de los productos. Estos deben correr por cuenta del cliente. \n  \n Para realizar una devolución, se procederá a una revisión de los productos y debe cumplir con las siguientes condiciones: (i) estar en óptimas condiciones estéticas y funcionales, (ii) el producto no debe haber sido usado, (iii) debe conservar todos sus empaques intactos y los sellos de garantía no pueden estar violentados o rotos. \n  \n Las devoluciones de dinero se realizan por el mismo canal y medio de pago que se realizó la compra o según común acuerdo con el cliente. El tiempo de devolución varía según el medio de pago. Las reversiones de tarjeta de crédito, pueden tomar hasta 15 días hábiles por parte de nuestro aliado de pagos. \n  \n En caso de no dar cumplimiento a uno o varios de los términos o condiciones de garantía aquí mencionados, el cliente deberá asumir cualquier costo generado o derivado de la prestación del servicio de reparación.",
+      "blockClass": "policy__content"
+    }
+  }
+}

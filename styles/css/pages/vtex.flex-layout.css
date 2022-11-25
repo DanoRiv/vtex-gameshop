@@ -1,3 +1,5 @@
+/* ABOUT US PAGE */
+
 .flexRow--about-section-one {
   padding-top: 30px;
 }
@@ -22,4 +24,10 @@
   margin-left  : -15px;
   margin-right : -15px;
   width        : auto;
+}
+
+/* WARRANTY POLICY PAGE */
+
+.flexRow--warranty__policy-page{
+  padding: 0 15px 30px;
 }
