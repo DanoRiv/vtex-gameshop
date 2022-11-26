@@ -1,0 +1,12 @@
+{
+  "filter-navigator.v3#results__filter": {
+    "props": {
+      "blockClass": "results__filter",
+      "navigationTypeOnMobile": "collapsible",
+      "appliedFiltersOverview": "show",
+      "updateOnFilterSelectionOnMobile": true,
+      "truncateFilters": true,
+      "slideDirection": "leftToRight"
+    }
+  }
+}

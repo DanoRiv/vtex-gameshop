@@ -1,0 +1,12 @@
+{
+  "flex-layout.row#department__results-mobile": {
+    "title": "department results container",
+    "children": [
+      "flex-layout.col#department__results-mobile--content"
+    ]
+  },
+  "flex-layout.col#department__results-mobile--content": {
+    "title": "department results content",
+    "children": ["search-content#results__content--products"]
+  }
+}

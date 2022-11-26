@@ -10,35 +10,75 @@
   },
   "flex-layout.col#home__categories--consoles": {
     "title": "consoles category",
-    "children": ["link#home__link-categories--consoles"]
+    "children": ["link#home__link-categories--consoles"],
+    "props": {
+      "blockClass": "home__categories--all"
+    }
   },
   "flex-layout.col#home__categories--accessories": {
     "title": "accesories category",
-    "children": ["link#home__link-categories--accessories"]
+    "children": ["link#home__link-categories--accessories"],
+    "props": {
+      "blockClass": "home__categories--all"
+    }
   },
   "flex-layout.col#home__categories--games": {
     "title": "games category",
-    "children": ["link#home__link-categories--games"]
+    "children": ["link#home__link-categories--games"],
+    "props": {
+      "blockClass": "home__categories--all"
+    }
   },
   "flex-layout.col#home__categories--controllers": {
     "title": "controllers category",
-    "children": ["link#home__link-categories--controllers"]
+    "children": ["link#home__link-categories--controllers"],
+    "props": {
+      "blockClass": "home__categories--all"
+    }
   },
   "link#home__link-categories--consoles": {
     "title": "consoles link",
-    "children": ["image#home__category-image--consoles", "rich-text#home__category-name--consoles"]
+    "children": [
+      "image#home__category-image--consoles",
+      "rich-text#home__category-name--consoles"
+    ],
+    "props": {
+      "href": "/queso",
+      "blockClass": "categories__link"
+    }
   },
   "link#home__link-categories--accessories": {
     "title": "accesories link",
-    "children": ["image#home__category-image--accessories", "rich-text#home__category-name--accessories"]
+    "children": [
+      "image#home__category-image--accessories",
+      "rich-text#home__category-name--accessories"
+    ],
+    "props": {
+      "href": "/mujer",
+      "blockClass": "categories__link"
+    }
   },
   "link#home__link-categories--games": {
     "title": "games link",
-    "children": ["image#home__category-image--games", "rich-text#home__category-name--games"]
+    "children": [
+      "image#home__category-image--games",
+      "rich-text#home__category-name--games"
+    ],
+    "props": {
+      "href": "/electrodomesticos",
+      "blockClass": "categories__link"
+    }
   },
   "link#home__link-categories--controllers": {
     "title": "controllers link",
-    "children": ["image#home__category-image--controllers", "rich-text#home__category-name--controllers"]
+    "children": [
+      "image#home__category-image--controllers",
+      "rich-text#home__category-name--controllers"
+    ],
+    "props": {
+      "href": "/madera",
+      "blockClass": "categories__link"
+    }
   },
   "image#home__category-image--consoles": {
     "title": "consoles category image",
@@ -49,9 +89,10 @@
   "rich-text#home__category-name--consoles": {
     "title": "consoles category text",
     "props": {
-      "text": "**Consolas** \n nro de productos",
+      "text": "**Consolas** \n 3 productos",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass": "category__name"
     }
   },
   "image#home__category-image--accessories": {
@@ -63,9 +104,10 @@
   "rich-text#home__category-name--accessories": {
     "title": "accessories category text",
     "props": {
-      "text": "**Accesorios** \n nro productos",
+      "text": "**Accesorios** \n 1 producto",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass": "category__name"
     }
   },
   "image#home__category-image--games": {
@@ -77,9 +119,10 @@
   "rich-text#home__category-name--games": {
     "title": "games category text",
     "props": {
-      "text": "**Juegos** \n nro productos",
+      "text": "**Juegos** \n 3 productos",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass": "category__name"
     }
   },
   "image#home__category-image--controllers": {
@@ -91,11 +134,10 @@
   "rich-text#home__category-name--controllers": {
     "title": "controllers category text",
     "props": {
-      "text": "**Controles** \n nro productos",
+      "text": "**Controles** \n 1 producto",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass": "category__name"
     }
   }
-
-
 }

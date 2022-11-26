@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#department__results": {
+    "title": "department results container",
+    "children": [
+      "flex-layout.col#department__results--filter",
+      "flex-layout.col#department__results--content"
+    ]
+  },
+  "flex-layout.col#department__results--filter": {
+    "title": "department results filter",
+    "children": [
+      "search-bar#results__filter--searchbar",
+      "filter-navigator.v3#results__filter"
+    ],
+    "props": {
+      "width": "25%",
+      "blockClass": "results__filter"
+    }
+  },
+  "flex-layout.col#department__results--content": {
+    "title": "department results content",
+    "children": ["search-content#results__content--products"],
+    "props": {
+      "width": "75%",
+      "blockClass": "results__content"
+    }
+  },
+  "search-bar#results__filter--searchbar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": false
+    }
+  }
+}

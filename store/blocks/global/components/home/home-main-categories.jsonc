@@ -46,21 +46,30 @@
     "title": "playstation logo",
     "props": {
       "src": "assets/img/home-ps-logo.png",
-      "maxHeight": "140px"
+      "maxHeight": "140px",
+      "link": {
+        "url": "/electrodomesticos"
+      }
     }
   },
   "image#home__nintendo--logo": {
     "title": "nintendo logo",
     "props": {
       "src": "assets/img/home-nintendo-logo.png",
-      "maxHeight": "140px"
+      "maxHeight": "140px",
+      "link": {
+        "url": "/madera"
+      }
     }
   },
   "image#home__xbox--logo": {
     "title": "xbox logo",
     "props": {
       "src": "assets/img/home-xbox-logo.png",
-      "maxHeight": "140px"
+      "maxHeight": "140px",
+      "link": {
+        "url": "/queso"
+      }
     }
   }
 }

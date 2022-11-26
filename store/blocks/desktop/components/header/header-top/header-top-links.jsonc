@@ -75,7 +75,7 @@
   "link#header__top--promo": {
     "title": "Top header link to promos",
     "props": {
-      "href": "#",
+      "href": "/queso",
       "label": "Promociones",
       "blockClass": ["header__top-link", "link-has-hover"]
     }
@@ -83,7 +83,7 @@
   "link#header__top--location": {
     "title": "Top header link to locations",
     "props": {
-      "href": "#",
+      "href": "/quienes-somos",
       "label": "¿Cómo llegar?",
       "blockClass": ["header__top-link", "link-has-hover"]
     }
@@ -91,7 +91,7 @@
   "link#header__top--contact-us": {
     "title": "Top header link to contact",
     "props": {
-      "href": "#",
+      "href": "/quienes-somos",
       "label": "Contáctenos",
       "blockClass": ["header__top-link", "link-has-hover"]
     }
@@ -99,7 +99,7 @@
   "link#header__top--wishlist": {
     "title": "Top header link to wishlist",
     "props": {
-      "href": "#",
+      "href": "/account/#/wishlist",
       "label": "Lista de Deseos",
       "blockClass": ["header__top-link", "link-has-hover"]
     }

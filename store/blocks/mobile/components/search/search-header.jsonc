@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#department__header--mobile": {
+    "title": "Search result header mobile",
+    "children": ["flex-layout.col#results__header"],
+    "props": {
+      "blockClass": "department__header",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#results__header": {
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "filter-navigator.v3#results__filter",
+      "order-by.v2"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "results__header"
+    }
+  },
+  "flex-layout.row#department__breadcrumb": {
+    "title": "breadcrumb container mobile",
+    "children": ["breadcrumb.search#department__breadcrumb"]
+  }
+}

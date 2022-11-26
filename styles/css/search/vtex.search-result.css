@@ -1,0 +1,119 @@
+.galleryItem{
+  margin: 30px 0;
+}
+
+.galleryItem :global(.vtex-modal-layout-0-x-triggerContainer) {
+  position        : absolute;
+  bottom          : 0;
+  right           : 0;
+  left            : 0;
+  width           : 100%;
+  background-color: #046ec2;
+  overflow        : hidden;
+  height          : 0;
+  transition      : .5s ease;
+}
+
+.galleryItem:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
+  height: 1.5em;
+}
+
+.galleryItem:hover :global(.vtex-button) {
+  display: flex;
+}
+
+.orderByButton {
+  max-width       : 100%;
+  width           : fit-content;
+  margin-left     : auto;
+  border-radius   : 99px;
+  background-color: rgb(2 54 95);
+  border          : 1px solid #ddd;
+  padding         : 0 0.75em;
+  height          : 2.507em;
+  font-size       : .97em;
+  max-width       : 100%;
+  vertical-align  : middle;
+  transition      : color .3s, border .3s, background .3s, opacity .3s;
+}
+
+.orderByText {
+  color         : #FFF;
+  text-transform: capitalize;
+}
+
+.filterPopupTitle {
+  color         : #FFF;
+  text-transform: none;
+}
+
+.filterPopupArrowIcon {
+  color: #FFF;
+}
+
+.orderByOptionsContainer {
+  top  : auto;
+  width: max-content;
+
+}
+
+.filterIcon {
+  display: none;
+}
+
+.filterPopupButton .filterPopupTitle {
+  text-transform: uppercase;
+  line-height   : 1.2;
+  font-weight   : bold;
+}
+
+.filtersWrapper{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.filter__container--priceRange::before{
+  content: "Filtrar por precio";
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+  color: #777;
+}
+
+.filterTitle{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+  color: #777;
+}
+.filter__container--priceRange .filterTitle{
+  display: none;
+}
+.filterAvailable{
+  padding: .2rem 0 .5rem;
+}
+.filterAvailable::after{
+  content: " ";
+  background-color: rgba(0,0,0,.1);
+  height: 3px;
+  display: block;
+  margin: .5em 0 .3em;
+  width: 100%;
+  max-width: 30px;
+}
+
+.filter__container--title{
+  display: none;
+}
+.filtersWrapper .filter__container--category-2{
+  order: 1;
+}
+.filtersWrapper .filter__container--priceRange{
+  order: 2;
+}
+
+@media screen and (max-width: 1025px) {
+  .orderByButton{
+    margin: 16px 0;
+  }
+}
