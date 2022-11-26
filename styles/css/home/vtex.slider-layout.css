@@ -1,6 +1,9 @@
+.imageElement--home__slider {
+  max-height: initial !important;
 
+}
 
-.imageElement--home__slider{
-    max-height: initial !important;
-
+.slide--home__categories--all {
+  padding        : 0 .5rem .8rem;
+  text-decoration: none;
 }

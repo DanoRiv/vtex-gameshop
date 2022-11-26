@@ -44,12 +44,10 @@
   right       : auto;
 }
 
-.flexRowContent--main-categories_phone {
-  background-color   : aqua;
-  /* width           : 80vw; */
-  height             : 160px;
-  justify-content    : center;
-  align-content      : center;
+.flexRowContent--main-categories_phone :global(.vtex-store-components-3-x-imageElementLink) {
+  display        : flex;
+  justify-content: center;
+  height         : 160px;
 }
 
 .flexRowContent--main-categories_phone {
@@ -86,4 +84,8 @@
 
 .flexRowContent--home__categories-xbox {
   background-color: #047e04;
+}
+
+.flexColChild--home__categories--all {
+  padding: 0 10px 20px;
 }
