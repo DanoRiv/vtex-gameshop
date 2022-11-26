@@ -2,6 +2,9 @@
   "responsive-layout.desktop#home__main-categories--desktop": {
     "title": "Main categories desktop",
     "children": ["flex-layout.row#home__main-categories"]
+  },
+  "responsive-layout.desktop#home__categories--all": {
+    "title": "All categories desktop",
+    "children": ["flex-layout.row#home__categories--all"]
   }
-
 }

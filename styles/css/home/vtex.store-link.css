@@ -1,0 +1,9 @@
+.link--categories__link {
+  text-decoration: none;
+  transition     : opacity .3s, transform .3s, background-color .3s, -webkit-transform .3s;
+}
+
+.link--categories__link:hover :global(.vtex-rich-text-0-x-container--category__name) {
+  transform : translateY(-15px);
+  transition: opacity .3s, transform .3s, background-color .3s, -webkit-transform .3s;
+}

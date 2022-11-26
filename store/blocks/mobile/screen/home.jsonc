@@ -1,0 +1,6 @@
+{
+  "responsive-layout.mobile#home__categories--all": {
+    "title": "All categories mobile",
+    "children": ["slider-layout#home__categories--all"]
+  }
+}

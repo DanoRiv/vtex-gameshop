@@ -3,3 +3,7 @@
   color          : rgba(102, 102, 102, .85);
   font-size      : .8em;
 }
+.link--socials__link{
+  text-decoration: none;
+  color: rgba(102, 102, 102, .85);
+}

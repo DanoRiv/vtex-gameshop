@@ -1,0 +1,21 @@
+{
+  "slider-layout#home__categories--all": {
+    "children": [
+      "link#home__link-categories--consoles",
+      "link#home__link-categories--accessories",
+      "link#home__link-categories--games",
+      "link#home__link-categories--controllers"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "infinite": false,
+      "blockClass": "home__categories--all"
+    }
+  }
+}
