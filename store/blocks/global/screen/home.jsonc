@@ -8,7 +8,8 @@
       "responsive-layout.phone#home__main-categories--phone",
       "flex-layout.row#home__product-shelf",
       "search-result-layout.customQuery#home__search-results",
-      "flex-layout.row#home__categories--all",
+      "responsive-layout.desktop#home__categories--all",
+      "responsive-layout.mobile#home__categories--all",
       "flex-layout.row#home__shipping-info",
       "rich-text#instagramgrid",
       "image#home__bottom-banner"
