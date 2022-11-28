@@ -1,0 +1,319 @@
+{
+  "rich-text#home__instagram-grid": {
+    "title": "Instagram grid title",
+    "props": {
+      "text": "¡Síguenos en instagram y entérate de nuestras ofertas y lanzamientos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3",
+      "blockClass": "instagram__grid"
+    }
+  },
+  "flex-layout.row#home__instagram-grid--one": {
+    "title": "Instagram grid container",
+    "children": [
+      "flex-layout.col#instagram__grid--one",
+      "flex-layout.col#instagram__grid--two",
+      "flex-layout.col#instagram__grid--three",
+      "flex-layout.col#instagram__grid--four",
+      "flex-layout.col#instagram__grid--five",
+      "flex-layout.col#instagram__grid--six",
+      "flex-layout.col#instagram__grid--seven",
+      "flex-layout.col#instagram__grid--eight",
+      "flex-layout.col#instagram__grid--nine",
+      "flex-layout.col#instagram__grid--ten"
+    ],
+    "props": {
+      "colSizing": "equal",
+      "blockClass": "instagram__grid-row"
+    }
+  },
+  "flex-layout.row#home__instagram-grid--two": {
+    "title": "Instagram grid container",
+    "children": [],
+    "props": {
+      "colSizing": "equal",
+      "blockClass": "instagram__grid-row"
+    }
+  },
+  "flex-layout.col#instagram__grid--one": {
+    "title": "Instagram grid box one",
+    "children": [
+      "image#instagram__grid-one--image",
+      "rich-text#instagram__grid-one--text"
+    ],
+    "props": {
+      "height": "100%",
+      "blockClass": "instagram__grid-col",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#instagram__grid--two": {
+    "title": "Instagram grid box two",
+    "children": [
+      "image#instagram__grid-two--image",
+      "rich-text#instagram__grid-two--text"
+    ],
+    "props": {
+      "height": "100%",
+      "blockClass": "instagram__grid-col",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#instagram__grid--three": {
+    "title": "Instagram grid box three",
+    "children": [
+      "image#instagram__grid-three--image",
+      "rich-text#instagram__grid-three--text"
+    ],
+    "props": {
+      "height": "100%",
+      "blockClass": "instagram__grid-col",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#instagram__grid--four": {
+    "title": "Instagram grid box four",
+    "children": [
+      "image#instagram__grid-four--image",
+      "rich-text#instagram__grid-four--text"
+    ],
+    "props": {
+      "height": "100%",
+      "blockClass": "instagram__grid-col",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#instagram__grid--five": {
+    "title": "Instagram grid box five",
+    "children": [
+      "image#instagram__grid-five--image",
+      "rich-text#instagram__grid-five--text"
+    ],
+    "props": {
+      "height": "100%",
+      "blockClass": "instagram__grid-col",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#instagram__grid--six": {
+    "title": "Instagram grid box six",
+    "children": [
+      "image#instagram__grid-six--image",
+      "rich-text#instagram__grid-six--text"
+    ],
+    "props": {
+      "height": "100%",
+      "blockClass": "instagram__grid-col",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#instagram__grid--seven": {
+    "title": "Instagram grid box seven",
+    "children": [
+      "image#instagram__grid-seven--image",
+      "rich-text#instagram__grid-seven--text"
+    ],
+    "props": {
+      "height": "100%",
+      "blockClass": "instagram__grid-col",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#instagram__grid--eight": {
+    "title": "Instagram grid box eight",
+    "children": [
+      "image#instagram__grid-eight--image",
+      "rich-text#instagram__grid-eight--text"
+    ],
+    "props": {
+      "height": "100%",
+      "blockClass": "instagram__grid-col",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#instagram__grid--nine": {
+    "title": "Instagram grid box nine",
+    "children": [
+      "image#instagram__grid-nine--image",
+      "rich-text#instagram__grid-nine--text"
+    ],
+    "props": {
+      "height": "100%",
+      "blockClass": "instagram__grid-col",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#instagram__grid--ten": {
+    "title": "Instagram grid box ten",
+    "children": [
+      "image#instagram__grid-ten--image",
+      "rich-text#instagram__grid-ten--text"
+    ],
+    "props": {
+      "height": "100%",
+      "blockClass": "instagram__grid-col",
+      "verticalAlign": "middle"
+    }
+  },
+  "image#instagram__grid-one--image": {
+    "props": {
+      "src": "assets/img/gs-instagram/instagram-grid-one.jpg",
+      "alt": "instagram photo",
+      "blockClass": "instagram__grid--image",
+      "maxHeigth": "250px"
+    }
+  },
+  "rich-text#instagram__grid-one--text": {
+    "title": "Instagram grid box one text",
+    "props": {
+      "text": "Consolas, accesorios y videojuegos disponibles &#64;gameshop_colombia \n  \n Realizamos envios a toda Colombia \n Domicilio contraentrega solo Cali",
+      "blockClass": "instagram_grid--text",
+      "textAlignment": "LEFT"
+    }
+  },
+  "image#instagram__grid-two--image": {
+    "props": {
+      "src": "assets/img/gs-instagram/instagram-grid-two.jpg",
+      "alt": "instagram photo",
+      "blockClass": "instagram__grid--image",
+      "maxHeigth": "250px"
+    }
+  },
+  "rich-text#instagram__grid-two--text": {
+    "title": "Instagram grid box two text",
+    "props": {
+      "text": "Memorias Micro disponibles @gameshop_colombia",
+      "blockClass": "instagram_grid--text",
+      "textAlignment": "LEFT"
+    }
+  },
+  "image#instagram__grid-three--image": {
+    "props": {
+      "src": "assets/img/gs-instagram/instagram-grid-three.jpg",
+      "alt": "instagram photo",
+      "blockClass": "instagram__grid--image",
+      "maxHeigth": "250px"
+    }
+  },
+  "rich-text#instagram__grid-three--text": {
+    "title": "Instagram grid box three text",
+    "props": {
+      "text": "Consolas usadas disponibles @gameshop_colombia 3 meses de garantia",
+      "blockClass": "instagram_grid--text",
+      "textAlignment": "LEFT"
+    }
+  },
+  "image#instagram__grid-four--image": {
+    "props": {
+      "src": "assets/img/gs-instagram/instagram-grid-four.jpg",
+      "alt": "instagram photo",
+      "blockClass": "instagram__grid--image",
+      "maxHeigth": "250px"
+    }
+  },
+  "rich-text#instagram__grid-four--text": {
+    "title": "Instagram grid box four text",
+    "props": {
+      "text": "Consola PS5 disponible @gameshop_colombia",
+      "blockClass": "instagram_grid--text",
+      "textAlignment": "LEFT"
+    }
+  },
+  "image#instagram__grid-five--image": {
+    "props": {
+      "src": "assets/img/gs-instagram/instagram-grid-five.jpg",
+      "alt": "instagram photo",
+      "blockClass": "instagram__grid--image",
+      "maxHeigth": "250px"
+    }
+  },
+  "rich-text#instagram__grid-five--text": {
+    "title": "Instagram grid box five text",
+    "props": {
+      "text": "Apple Watch Series 8 disponibles! Mas info @gameshop_colombia",
+      "blockClass": "instagram_grid--text",
+      "textAlignment": "LEFT"
+    }
+  },
+  "image#instagram__grid-six--image": {
+    "props": {
+      "src": "assets/img/gs-instagram/instagram-grid-six.jpg",
+      "alt": "instagram photo",
+      "blockClass": "instagram__grid--image",
+      "maxHeigth": "250px"
+    }
+  },
+  "rich-text#instagram__grid-six--text": {
+    "title": "Instagram grid box six text",
+    "props": {
+      "text": "Ultimas unidades! \n Consola Splatoon 3 Nintendo Switch Oled \n Mas info @gameshop_colombia",
+      "blockClass": "instagram_grid--text",
+      "textAlignment": "LEFT"
+    }
+  },
+  "image#instagram__grid-seven--image": {
+    "props": {
+      "src": "assets/img/gs-instagram/instagram-grid-seven.png",
+      "alt": "instagram photo",
+      "blockClass": "instagram__grid--image",
+      "maxHeigth": "250px"
+    }
+  },
+  "rich-text#instagram__grid-seven--text": {
+    "title": "Instagram grid box seven text",
+    "props": {
+      "text": "La franquicia mas vendida de Playstation \n Encuentra God Of War @gameshop_colombia",
+      "blockClass": "instagram_grid--text",
+      "textAlignment": "LEFT"
+    }
+  },
+  "image#instagram__grid-eight--image": {
+    "props": {
+      "src": "assets/img/gs-instagram/instagram-grid-eight.jpg",
+      "alt": "instagram photo",
+      "blockClass": "instagram__grid--image",
+      "maxHeigth": "250px"
+    }
+  },
+  "rich-text#instagram__grid-eight--text": {
+    "title": "Instagram grid box eight text",
+    "props": {
+      "text": "Increible la franquicia mas vendida para un juego de primera persona! \n Ya jugaste God Of War?",
+      "blockClass": "instagram_grid--text",
+      "textAlignment": "LEFT"
+    }
+  },
+  "image#instagram__grid-nine--image": {
+    "props": {
+      "src": "assets/img/gs-instagram/instagram-grid-nine.jpg",
+      "alt": "instagram photo",
+      "blockClass": "instagram__grid--image",
+      "maxHeigth": "250px"
+    }
+  },
+  "rich-text#instagram__grid-nine--text": {
+    "title": "Instagram grid box nine text",
+    "props": {
+      "text": "Cual Call Of Duty es el que te a gustado mas? \n Encuentra todos los Call Of Duty @gameshop_colombia",
+      "blockClass": "instagram_grid--text",
+      "textAlignment": "LEFT"
+    }
+  },
+  "image#instagram__grid-ten--image": {
+    "props": {
+      "src": "assets/img/gs-instagram/instagram-grid-ten.jpg",
+      "alt": "instagram photo",
+      "blockClass": "instagram__grid--image",
+      "maxHeigth": "250px"
+    }
+  },
+  "rich-text#instagram__grid-ten--text": {
+    "title": "Instagram grid box ten text",
+    "props": {
+      "text": "Doble tab si eres Gamer! \n #YoSoyGamerGS",
+      "blockClass": "instagram_grid--text",
+      "textAlignment": "LEFT"
+    }
+  }
+}

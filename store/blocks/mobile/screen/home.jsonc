@@ -2,5 +2,13 @@
   "responsive-layout.mobile#home__categories--all": {
     "title": "All categories mobile",
     "children": ["slider-layout#home__categories--all"]
+  },
+  "responsive-layout.mobile#home__instagram-grid--mobile": {
+    "title": "Instagram Grid",
+    "children": [
+      "rich-text#home__instagram-grid",
+      "flex-layout.row#home__instagram-grid--one",
+      "flex-layout.row#home__instagram-grid--two"
+    ]
   }
 }

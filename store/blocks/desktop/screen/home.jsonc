@@ -6,5 +6,13 @@
   "responsive-layout.desktop#home__categories--all": {
     "title": "All categories desktop",
     "children": ["flex-layout.row#home__categories--all"]
+  },
+  "responsive-layout.desktop#home__instagram-grid--desktop": {
+    "title": "Instagram Grid",
+    "children": [
+      "rich-text#home__instagram-grid",
+      "flex-layout.row#home__instagram-grid--one",
+      "flex-layout.row#home__instagram-grid--two"
+    ]
   }
 }

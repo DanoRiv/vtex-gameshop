@@ -11,20 +11,12 @@
       "responsive-layout.desktop#home__categories--all",
       "responsive-layout.mobile#home__categories--all",
       "flex-layout.row#home__shipping-info",
-      "rich-text#instagramgrid",
+      "responsive-layout.desktop#home__instagram-grid--desktop",
+      "responsive-layout.mobile#home__instagram-grid--mobile",
       "image#home__bottom-banner"
 
       // "modal-trigger#home__modal--trigger"
     ]
-  },
-  "rich-text#instagramgrid": {
-    "title": "Instagram grid title",
-    "props": {
-      "text": "¡Síguenos en instagram y entérate de nuestras ofertas y lanzamientos",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-3"
-    }
   },
   "image#home__bottom-banner": {
     "props": {
