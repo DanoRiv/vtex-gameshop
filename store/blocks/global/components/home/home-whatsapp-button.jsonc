@@ -1,0 +1,11 @@
+{
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp-button-logo.png",
+      "phone": "3138994610",
+      "message": "Bienvenido a Game Shop, ¡Gracias por preferirnos!",
+      "width": 60,
+      "heigth": 60
+    }
+  }
+}
