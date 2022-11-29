@@ -2,11 +2,11 @@
   "rich-text#home__instagram-grid": {
     "title": "Instagram grid title",
     "props": {
-      "text": "¡Síguenos en instagram y entérate de nuestras ofertas y lanzamientos",
+      "text": "¡Síguenos en instagram y entérate de nuestras ofertas y lanzamientos!",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-3",
-      "blockClass": "instagram__grid"
+      "blockClass": ["instagram__grid", "home__title"]
     }
   },
   "flex-layout.row#home__instagram-grid--one": {

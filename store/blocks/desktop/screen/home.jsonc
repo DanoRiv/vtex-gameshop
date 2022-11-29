@@ -5,7 +5,10 @@
   },
   "responsive-layout.desktop#home__categories--all": {
     "title": "All categories desktop",
-    "children": ["flex-layout.row#home__categories--all"]
+    "children": [
+      "rich-text#home__categories--all--title",
+      "flex-layout.row#home__categories--all"
+    ]
   },
   "responsive-layout.desktop#home__instagram-grid--desktop": {
     "title": "Instagram Grid",

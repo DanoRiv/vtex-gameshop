@@ -1,0 +1,5 @@
+.imageElement--instagram__grid--image {
+  max-height: inherit;
+  width     : auto;
+  height    : auto;
+}
