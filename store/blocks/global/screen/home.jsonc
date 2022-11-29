@@ -10,9 +10,9 @@
       "search-result-layout.customQuery#home__search-results",
       "responsive-layout.desktop#home__categories--all",
       "responsive-layout.mobile#home__categories--all",
-      "flex-layout.row#home__shipping-info",
       "responsive-layout.desktop#home__instagram-grid--desktop",
       "responsive-layout.mobile#home__instagram-grid--mobile",
+      "flex-layout.row#home__shipping-info",
       "image#home__bottom-banner"
 
       // "modal-trigger#home__modal--trigger"
