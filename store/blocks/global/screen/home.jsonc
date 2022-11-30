@@ -3,6 +3,7 @@
     "blocks": [
       "list-context.image-list#home__slider",
       "flex-layout.row#home__tagline",
+      "flex-layout.row#bullets",
       "responsive-layout.desktop#home__main-categories--desktop",
       "responsive-layout.tablet#home__main-categories--tablet",
       "responsive-layout.phone#home__main-categories--phone",
@@ -22,6 +23,71 @@
   "image#home__bottom-banner": {
     "props": {
       "src": "assets/img/home-bottom-banner.png"
+    }
+  },
+  "flex-layout.row#bullets": {
+    "title": "Bullets container",
+    "children": ["list-context.bullet-group"]
+  },
+  "list-context.bullet-group": {
+    "title": "mi contexto de lista de bullets",
+    "children": ["slider-layout#bullet__group"],
+    "props": {
+      "bullets": [
+        {
+          "image": "text.png",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "text.png",
+          "titleBullet": "Celulares",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "text.png",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "text.png",
+          "titleBullet": "Celulares",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "text.png",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "text.png",
+          "titleBullet": "Celulares",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet__group": {
+    "title": "Bullet group slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 3
+      },
+      "infinite": true
     }
   }
 }
