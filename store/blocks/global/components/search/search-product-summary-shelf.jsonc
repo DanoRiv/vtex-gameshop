@@ -5,7 +5,6 @@
       "product-summary-name",
       "product-list-price",
       "product-selling-price",
-      "product-summary-sku-selector",
       "add-to-cart-button"
 
     ]
@@ -37,9 +36,10 @@
       "alwaysShow": true
     }
   },
-  "product-summary-sku-selector": {
+  "add-to-cart-button": {
     "props": {
-      "hideImpossibleCombinations": false
+      "text": "Añadir al carrito",
+      "blockClass": "add-to-cart-btn"
     }
   }
 }
