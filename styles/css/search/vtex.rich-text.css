@@ -1,3 +1,8 @@
+.container--products__title {
+  color  : rgb(37, 95, 185);
+}
+
+
 /* Quick view modal text */
 
 .container--quick-view__trigger {

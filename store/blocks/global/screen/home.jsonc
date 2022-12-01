@@ -7,7 +7,7 @@
       "responsive-layout.tablet#home__main-categories--tablet",
       "responsive-layout.phone#home__main-categories--phone",
       "flex-layout.row#home__product-shelf",
-      "search-result-layout.customQuery#home__search-results",
+      "flex-layout.row#home__search-result--custom-query",
       "responsive-layout.desktop#home__categories--all",
       "responsive-layout.mobile#home__categories--all",
       "responsive-layout.desktop#home__instagram-grid--desktop",
