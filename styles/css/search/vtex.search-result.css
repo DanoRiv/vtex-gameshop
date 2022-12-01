@@ -1,6 +1,15 @@
+/* Product Summary Shelf styles */
+
 .galleryItem{
   margin: 30px 0;
 }
+
+.galleryItem--normal :global(.vtex-button){
+  background-color: transparent;
+  border: none;
+}
+
+/* Product summary modal button */
 
 .galleryItem :global(.vtex-modal-layout-0-x-triggerContainer) {
   position        : absolute;
@@ -21,6 +30,8 @@
 .galleryItem:hover :global(.vtex-button) {
   display: flex;
 }
+
+/* PLP Filter styles */
 
 .orderByButton {
   max-width       : 100%;
