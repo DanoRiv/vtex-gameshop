@@ -1,3 +1,14 @@
-.container{
+.container {
   padding: 0;
+}
+
+.discountInsideContainer {
+  background-color: #81d742;
+  left            : -50px;
+  right           : 100px;
+  border-radius   : 50%;
+  height          : 2.8em;
+  width           : 2.8em;
+  padding         : 1em 0 0;
+  font-weight     : 700;
 }

@@ -1,4 +1,14 @@
 {
+  "rich-text#home__categories--all--title":{
+    "title": "All categories title",
+    "props": {
+      "text": "Categorías",
+      "blockClass": ["home__categories--title", "home__title"],
+      "font": "t-heading-3",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
   "flex-layout.row#home__categories--all": {
     "title": "All categories",
     "children": [

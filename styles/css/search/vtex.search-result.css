@@ -1,6 +1,18 @@
-.galleryItem{
-  margin: 30px 0;
+/* Product Summary Shelf styles */
+
+.galleryItem {
+  margin    : 30px 0;
+  flex      : 25%;
+  flex-basis: 25% !important;
+  max-width : 25% !important;
 }
+
+.galleryItem--normal :global(.vtex-button) {
+  background-color: transparent;
+  border          : none;
+}
+
+/* Product summary modal button */
 
 .galleryItem :global(.vtex-modal-layout-0-x-triggerContainer) {
   position        : absolute;
@@ -21,6 +33,8 @@
 .galleryItem:hover :global(.vtex-button) {
   display: flex;
 }
+
+/* PLP Filter styles */
 
 .orderByButton {
   max-width       : 100%;
@@ -67,53 +81,58 @@
   font-weight   : bold;
 }
 
-.filtersWrapper{
-  display: flex;
+.filtersWrapper {
+  display       : flex;
   flex-direction: column-reverse;
 }
 
-.filter__container--priceRange::before{
-  content: "Filtrar por precio";
+.filter__container--priceRange::before {
+  content       : "Filtrar por precio";
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1em;
-  color: #777;
+  font-weight   : bold;
+  font-size     : 1em;
+  color         : #777;
 }
 
-.filterTitle{
+.filterTitle {
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1em;
-  color: #777;
+  font-weight   : bold;
+  font-size     : 1em;
+  color         : #777;
 }
-.filter__container--priceRange .filterTitle{
+
+.filter__container--priceRange .filterTitle {
   display: none;
 }
-.filterAvailable{
+
+.filterAvailable {
   padding: .2rem 0 .5rem;
 }
-.filterAvailable::after{
-  content: " ";
-  background-color: rgba(0,0,0,.1);
-  height: 3px;
-  display: block;
-  margin: .5em 0 .3em;
-  width: 100%;
-  max-width: 30px;
+
+.filterAvailable::after {
+  content         : " ";
+  background-color: rgba(0, 0, 0, .1);
+  height          : 3px;
+  display         : block;
+  margin          : .5em 0 .3em;
+  width           : 100%;
+  max-width       : 30px;
 }
 
-.filter__container--title{
+.filter__container--title {
   display: none;
 }
-.filtersWrapper .filter__container--category-2{
+
+.filtersWrapper .filter__container--category-2 {
   order: 1;
 }
-.filtersWrapper .filter__container--priceRange{
+
+.filtersWrapper .filter__container--priceRange {
   order: 2;
 }
 
 @media screen and (max-width: 1025px) {
-  .orderByButton{
+  .orderByButton {
     margin: 16px 0;
   }
 }

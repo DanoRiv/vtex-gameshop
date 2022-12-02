@@ -1,21 +1,39 @@
 {
   "flex-layout.row#home__product-shelf": {
+    "title": "Home product shelf",
     "children": ["flex-layout.col#home__product-shelf--column"]
   },
   "flex-layout.col#home__product-shelf--column": {
+    "title": "Home product shelf container",
     "children": [
       "rich-text#home__product-shelf--title",
-      "rich-text#home__product-shelf--paragraph"
+      "list-context.product-list#home__product-shelf--content"
     ]
   },
   "rich-text#home__product-shelf--title": {
+    "title": "Product shelf title",
     "props": {
-      "text": "##### Los más vendidos"
+      "text": "Los más vendidos",
+      "blockClass": "home__title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
     }
   },
-  "rich-text#home__product-shelf--paragraph": {
+  "list-context.product-list#home__product-shelf--content": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#product-shelf__slider"]
+  },
+  "slider-layout#product-shelf__slider": {
+    "title": "Product shelf carrousel",
     "props": {
-      "text": "Aqui va el shelf cuando aprenda a hacerlo "
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "showPaginationDots": "never",
+      "blockClass": "product-shelf__slider"
     }
   }
 }

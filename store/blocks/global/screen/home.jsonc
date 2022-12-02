@@ -7,24 +7,17 @@
       "responsive-layout.tablet#home__main-categories--tablet",
       "responsive-layout.phone#home__main-categories--phone",
       "flex-layout.row#home__product-shelf",
-      "search-result-layout.customQuery#home__search-results",
+      "flex-layout.row#home__search-result--custom-query",
       "responsive-layout.desktop#home__categories--all",
       "responsive-layout.mobile#home__categories--all",
+      "responsive-layout.desktop#home__instagram-grid--desktop",
+      "responsive-layout.mobile#home__instagram-grid--mobile",
       "flex-layout.row#home__shipping-info",
-      "rich-text#instagramgrid",
-      "image#home__bottom-banner"
+      "image#home__bottom-banner",
+      "whatsapp-button"
 
       // "modal-trigger#home__modal--trigger"
     ]
-  },
-  "rich-text#instagramgrid": {
-    "title": "Instagram grid title",
-    "props": {
-      "text": "¡Síguenos en instagram y entérate de nuestras ofertas y lanzamientos",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-3"
-    }
   },
   "image#home__bottom-banner": {
     "props": {
