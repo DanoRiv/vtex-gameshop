@@ -22,9 +22,33 @@
   },
   "flex-layout.row#product__reviews-and-ratings": {
     "title": "Product reviews",
+    "children": [
+      "flex-layout.col#product__reviews-and-ratings--title",
+      "flex-layout.col#product__reviews-and-ratings--content"
+    ],
+    "props": {
+      "blockClass": "product__footer",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#product__reviews-and-ratings--title": {
+    "title": "Reviews and ratings title",
+    "children": ["rich-text#product__reviews-and-ratings--title"],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#product__reviews-and-ratings--content": {
+    "title": "Reviews and ratings content",
     "children": ["product-reviews"],
     "props": {
-      "blockClass": "product__reviews-and-ratings"
+      "width": "80%"
+    }
+  },
+  "rich-text#product__reviews-and-ratings--title": {
+    "props": {
+      "text": "Valoraciones",
+      "blockClass": "product__footer--title"
     }
   },
   "flex-layout.row#product__related-products": {
