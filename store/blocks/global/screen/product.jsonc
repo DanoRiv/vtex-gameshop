@@ -4,9 +4,5 @@
       "responsive-layout.desktop#product--desktop",
       "responsive-layout.mobile#product--mobile"
     ]
-  },
-  "responsive-layout.mobile#product--mobile": {
-    "title": "Product page desktop",
-    "children": []
   }
 }
