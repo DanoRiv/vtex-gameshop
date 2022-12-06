@@ -35,7 +35,8 @@
       "rich-text#product__warranty-disclaimer",
       "product-quantity#product__info--quantity",
       "add-to-cart-button#product__add-button",
-      "share"
+      "share",
+      "modal-trigger#add-to-cart-info"
     ],
     "props": {
       "blockClass": "product__info--data",
@@ -65,5 +66,17 @@
       "text": "Añadir al carrito",
       "blockClass": ["add-to-cart-btn", "product__add-to-cart"]
     }
+  },
+  "modal-trigger#add-to-cart-info": {
+    "children": ["modal-layout#add-to-cart-info"],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add-to-cart-info": {
+    "children": [
+      "modal-header",
+      "add-to-cart-info"
+    ]
   }
 }
