@@ -1,0 +1,34 @@
+{
+  "responsive-layout.desktop#product--desktop": {
+    "title": "Product page desktop",
+    "children": [
+      "flex-layout.row#product__breadcrumb",
+      "flex-layout.row#product__info-and-filter",
+      "flex-layout.row#product__description",
+      "flex-layout.row#product__specifications",
+      "flex-layout.row#product__reviews-and-ratings",
+      "flex-layout.row#product__related-products"
+    ]
+  },
+  "flex-layout.row#product__info-and-filter": {
+    "title": "Product filter and information",
+    "children": [
+      "flex-layout.col#department__results--filter",
+      "flex-layout.row#product__info"
+    ],
+    "props": {
+      "blockClass": "product__info-and-filter"
+    }
+  },
+  "flex-layout.row#product__reviews-and-ratings": {
+    "title": "Product reviews",
+    "children": ["product-reviews"],
+    "props": {
+      "blockClass": "product__reviews-and-ratings"
+    }
+  },
+  "flex-layout.row#product__related-products": {
+    "title": "Related products",
+    "children": []
+  }
+}
