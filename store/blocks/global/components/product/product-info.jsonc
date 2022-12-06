@@ -4,14 +4,19 @@
     "children": [
       "flex-layout.col#product__info--image",
       "flex-layout.col#product__info--data"
-    ]
+    ],
+    "props": {
+      "blockClass": "product__info",
+      "colSizing": "auto"
+    }
   },
   "flex-layout.col#product__info--image": {
     "title": "PDP images",
-    "children": [
-      "product-images#product__info--image"
-
-    ]
+    "children": ["product-images#product__info--image", "add-to-list-btn"],
+    "props": {
+      "blockClass": "product__info--image",
+      "width": "65%"
+    }
   },
   "product-images#product__info--image": {
     "title": "Product images",
@@ -26,10 +31,39 @@
     "children": [
       "vtex.store-components:product-name",
       "product-price",
-      "product-description",
-      "add-to-list-btn",
-      "product-quantity",
+      "product-description#product__info--description",
+      "rich-text#product__warranty-disclaimer",
+      "product-quantity#product__info--quantity",
+      "add-to-cart-button#product__add-button",
       "share"
-    ]
+    ],
+    "props": {
+      "blockClass": "product__info--data",
+      "width": "35%",
+      "verticalAlign": "middle"
+    }
+  },
+  "product-description#product__info--description": {
+    "props": {
+      "showTitle": false
+    }
+  },
+  "rich-text#product__warranty-disclaimer": {
+    "title": "Warranty disclaimer",
+    "props": {
+      "text": "**Todas tus compras online en GS Gameshop cuentan con garantía de satisfacción. Si al recibir tu pedido no estás satisfecho con los productos o no cumplen tus expectativas, te devolvemos tu dinero. Aplican términos y condiciones.**",
+      "blockClass": "product__warranty-disclaimer"
+    }
+  },
+  "product-quantity#product__info--quantity": {
+    "props": {
+      "showLabel": false
+    }
+  },
+  "add-to-cart-button#product__add-button": {
+    "props": {
+      "text": "Añadir al carrito",
+      "blockClass": ["add-to-cart-btn", "product__add-to-cart"]
+    }
   }
 }

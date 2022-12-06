@@ -1,0 +1,77 @@
+{
+  "flex-layout.row#product__description": {
+    "title": "Product description",
+    "children": [
+      "flex-layout.col#product__description--title",
+      "flex-layout.col#product__description--content"
+    ],
+    "props": {
+      "blockClass": ["product__footer", "product__description--row"],
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#product__description--title": {
+    "title": "Product description title",
+    "children": ["rich-text#product__description--title"],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#product__description--content": {
+    "title": "Product description",
+    "children": ["product-description#product__description--content"],
+    "props": {
+      "blockClass": ["product__description--col"],
+      "width": "80%"
+    }
+  },
+  "rich-text#product__description--title": {
+    "title": "Product description title",
+    "props": {
+      "text": "Descripción",
+      "textAlignment": "LEFT",
+      "blockClass": "product__footer--title",
+      "font": "t-heading-5"
+    }
+  },
+  "product-description#product__description--content": {
+    "props": {
+      "showTitle": false
+    }
+  },
+  "flex-layout.row#product__specifications": {
+    "title": "Product specifications",
+    "children": [
+      "flex-layout.col#product__specifications--title",
+      "flex-layout.col#product__specifications--content"
+    ],
+    "props": {
+      "blockClass": ["product__footer", "product__specifications--row"],
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#product__specifications--title": {
+    "title": "Product specifications title",
+    "children": ["rich-text#product__specifications--title"],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#product__specifications--content": {
+    "title": "Product specification",
+    "children": ["product-specifications"],
+    "props": {
+      "blockClass": ["product__specifications--col"],
+      "width": "80%"
+    }
+  },
+  "rich-text#product__specifications--title": {
+    "title": "Product specifications title",
+    "props": {
+      "text": "Información Adicional",
+      "textAlignment": "LEFT",
+      "blockClass": "product__footer--title",
+      "font": "t-heading-5"
+    }
+  }
+}

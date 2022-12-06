@@ -1,0 +1,47 @@
+/* PDP section one: Product information */
+
+.flexRow--product__breadcrumb--container {
+  width           : 100%;
+  background-color: #033968;
+  text-shadow     : 1px 1px 1px rgb(0 0 0 / 20%);
+  padding         : 20px 10px;
+}
+
+.flexRowContent--product__info-and-filter {
+  padding-top: 40px;
+}
+
+.flexCol--product__info--image {
+  position: relative;
+}
+
+.flexCol--product__info--data {
+  padding: 10px 15px 30px;
+}
+
+.flexColChild--product__info--data :global(.vtex-button) {
+  width     : fit-content;
+  height    : fit-content;
+  padding   : 0;
+  border    : none;
+  background: none;
+  margin    : 15px 0;
+}
+
+.flexColChild--product__info--data :global(.vtex-button__label) {
+  margin : 0;
+  padding: 0;
+}
+
+/* PDP section two: Product description and specification */
+.flexRow--product__footer {
+  width     : 95%;
+  padding   : 24px 0;
+  margin    : auto;
+  border-top: 1px solid rgb(0 0 0 / 20%);
+}
+
+.flexColChild--product__description--col,
+.flexColChild--product__specifications--col {
+  padding-left: 20px;
+}

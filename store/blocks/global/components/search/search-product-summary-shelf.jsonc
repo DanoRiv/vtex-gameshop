@@ -5,8 +5,7 @@
       "product-summary-name",
       "product-list-price",
       "product-selling-price",
-      "add-to-cart-button"
-
+      "add-to-cart-button#shelf__add-button"
     ]
   },
   "flex-layout.row#image__quickview--container": {
@@ -36,7 +35,7 @@
       "alwaysShow": true
     }
   },
-  "add-to-cart-button": {
+  "add-to-cart-button#shelf__add-button": {
     "props": {
       "text": "Añadir al carrito",
       "blockClass": "add-to-cart-btn"
