@@ -1,78 +1,12 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#product__breadcrumb",
-      "flex-layout.row#product__info",
-      "flex-layout.row#product__tabs",
-      "flex-layout.row#product__reviews"
+      "responsive-layout.desktop#product--desktop",
+      "responsive-layout.mobile#product--mobile"
     ]
   },
-  "flex-layout.row#product__tabs": {
-    "title": "Additional product info",
-    "children": [
-      "tab-layout#product__tabs"
-    ]
-  },
-  "tab-layout#product__tabs":{
-    "children": [
-      "tab-list#product__tabs--list",
-      "tab-content#product__tabs--content"
-    ]
-  },
-  "tab-list#product__tabs--list":{
-    "children": [
-      "tab-list.item#tabs__list--reviews-and-ratings",
-      "tab-list.item#tabs__list--product-specification",
-      "tab-list.item#tabs__list--product-questions"
-    ]
-  },
-  "tab-list.item#tabs__list--reviews-and-ratings":{
-    "props": {
-      "tabId": "reviews-ratings",
-      "label": "Valoraciones",
-      "defaultActiveTab": true
-    }
-  },
-  "tab-list.item#tabs__list--product-specification":{
-    "props": {
-      "tabId": "product-specification",
-      "label": "Características",
-      "defaultActiveTab": false
-    }
-  },
-  "tab-list.item#tabs__list--product-questions":{
-    "props": {
-      "tabId": "product-questions",
-      "label": "Preguntas y respuestas",
-      "defaultActiveTab": false
-    }
-  },
-  "tab-content#product__tabs--content":{
-    "children": [
-      "tab-content.item#tabs__content--reviews-and-ratings",
-      "tab-content.item#tabs__content--product-specification",
-      "tab-content.item#tabs__content--product-questions"
-    ]
-  },
-  "tab-content.item#tabs__content--reviews-and-ratings": {
-    "props": {
-      "tabId": "reviews-ratings"
-    },
+  "responsive-layout.mobile#product--mobile": {
+    "title": "Product page desktop",
     "children": []
-  },
-  "tab-content.item#tabs__content--product-specification": {
-    "props": {
-      "tabId": "product-specification"
-    },
-    "children": []
-  },
-  "tab-content.item#tabs__content--product-questions": {
-    "props": {
-      "tabId": "product-questions"
-    },
-    "children": []
-  },
-  "flex-layout.row#product__reviews":{
-    "title": "Product reviews"
   }
 }
