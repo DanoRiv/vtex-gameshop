@@ -9,7 +9,7 @@
   "flex-layout.col#department__results--filter": {
     "title": "department results filter",
     "children": [
-      "search-bar#results__filter--searchbar",
+      "department-search",
       "filter-navigator.v3#results__filter"
     ],
     "props": {
@@ -23,12 +23,6 @@
     "props": {
       "width": "75%",
       "blockClass": "results__content"
-    }
-  },
-  "search-bar#results__filter--searchbar": {
-    "blocks": ["autocomplete-result-list.v2"],
-    "props": {
-      "openAutocompleteOnFocus": false
     }
   }
 }

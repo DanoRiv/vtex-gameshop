@@ -3,6 +3,7 @@
   right   : 5px;
   top     : 0;
   width   : fit-content !important;
+  z-index : 99;
 }
 
 .outline {
