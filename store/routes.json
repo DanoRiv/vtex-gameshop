@@ -4,5 +4,8 @@
   },
   "store.custom#warranty-policy": {
     "path": "/terminos-de-garantia"
+  },
+  "store.custom#terms-of-support": {
+    "path": "/terminos-y-condiciones-de-servicio-tecnico"
   }
 }
