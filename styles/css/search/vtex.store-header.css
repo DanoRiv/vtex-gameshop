@@ -1,0 +1,9 @@
+.headerRowContainer--header__bottom--desktop {
+  background-color: #046ec2;
+  min-height      : 41px;
+}
+
+.headerRowContainer--header__bottom--desktop :global(.vtex-store-components-3-x-searchBarContainer) {
+  width       : 33%;
+  margin-right: 0;
+}
