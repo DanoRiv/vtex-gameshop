@@ -1,8 +1,11 @@
+.searchBarInnerContainer--header__search-bar {
+  padding-right: 2rem;
+}
+
 .searchBarInnerContainer--header__search-bar :global(.vtex-input-prefix__group) {
   border-radius: 80px;
-  border: none;
-  height       : 2.507em;
-  font-size    : .97em;
+  border       : none;
+  height       : 1.807em;
 }
 
 .searchBarInnerContainer--header__search-bar :global(.vtex-styleguide-9-x-input),
@@ -10,7 +13,12 @@
 .searchBarIcon--header__search-bar {
   background-color: rgb(2 54 95);
   color           : #fff;
-  border: none;
+  border          : none;
+  font-size       : 0.95em;
+}
+
+.searchBarInnerContainer--header__search-bar :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #fff;
 }
 
 @media screen and (max-width: 1025px) {
