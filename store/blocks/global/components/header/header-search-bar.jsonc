@@ -2,7 +2,9 @@
   "search-bar#header__search-bar": {
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
-      "openAutocompleteOnFocus": true
+      "openAutocompleteOnFocus": true,
+      "blockClass": "header__search-bar",
+      "placeholder": "Encuentra productos..."
     }
   },
   "autocomplete-result-list.v2": {

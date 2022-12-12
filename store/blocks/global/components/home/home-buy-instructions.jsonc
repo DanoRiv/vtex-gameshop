@@ -1,0 +1,155 @@
+{
+  "flex-layout.row#home__buy-instructions": {
+    "title": "Home buy instructions",
+    "children": [
+      "flex-layout.col#home__buy-instructions--one",
+      "flex-layout.col#home__buy-instructions--two",
+      "flex-layout.col#home__buy-instructions--three",
+      "flex-layout.col#home__buy-instructions--four"
+    ]
+  },
+  "flex-layout.col#home__buy-instructions--one":{
+    "title": "Home buy instructions one",
+    "children": [
+      "image#buy-instructions__one",
+      "rich-text#buy-instructions__one--title",
+      "rich-text#buy-instructions__one--text"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#buy-instructions__one":{
+    "title": "Buy instructions image",
+    "props": {
+      "src": "assets/img/home-instructions-buy.png",
+      "maxHeight": "60px",
+      "maxWidth": "60px"
+    }
+  },
+  "rich-text#buy-instructions__one--title":{
+    "title": "Buy instructions title",
+    "props":{
+      "text": "1&#46; Selecciona tu producto",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-6"
+    }
+  },
+  "rich-text#buy-instructions__one--text":{
+    "title": "Buy instructions text",
+    "props":{
+      "text": "Selecciona cantidad, color o capacidad según tu producto y agrégalo al carrito de compras.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#home__buy-instructions--two":{
+    "title": "Home buy instructions two",
+    "children": [
+      "image#buy-instructions__two",
+      "rich-text#buy-instructions__two--title",
+      "rich-text#buy-instructions__two--text"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#buy-instructions__two":{
+    "title": "Buy instructions image",
+    "props": {
+      "src": "assets/img/home-instructions-price.png",
+      "maxHeight": "60px",
+      "maxWidth": "60px"
+    }
+  },
+  "rich-text#buy-instructions__two--title":{
+    "title": "Buy instructions title",
+    "props":{
+      "text": "2&#46; Llena tus datos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-6"
+    }
+  },
+  "rich-text#buy-instructions__two--text":{
+    "title": "Buy instructions text",
+    "props":{
+      "text": "Déjanos tus datos para realizar y hacer llegar el pedido, si ya eres cliente **inicia sesión** y continúa el proceso.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#home__buy-instructions--three":{
+    "title": "Home buy instructions three",
+    "children": [
+      "image#buy-instructions__three",
+      "rich-text#buy-instructions__three--title",
+      "rich-text#buy-instructions__three--text"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#buy-instructions__three":{
+    "title": "Buy instructions image",
+    "props": {
+      "src": "assets/img/home-instructions-credit-card.png",
+      "maxHeight": "60px",
+      "maxWidth": "60px"
+    }
+  },
+  "rich-text#buy-instructions__three--title":{
+    "title": "Buy instructions title",
+    "props":{
+      "text": "3&#46; Realiza tu pago",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-6"
+    }
+  },
+  "rich-text#buy-instructions__three--text":{
+    "title": "Buy instructions text",
+    "props":{
+      "text": "Lo puedes hacer mediante tarjetas débito, crédito, consignación o transferencia directa.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#home__buy-instructions--four":{
+    "title": "Home buy instructions four",
+    "children": [
+      "image#buy-instructions__four",
+      "rich-text#buy-instructions__four--title",
+      "rich-text#buy-instructions__four--text"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#buy-instructions__four":{
+    "title": "Buy instructions image",
+    "props": {
+      "src": "assets/img/home-instructions-delivery-truck.png",
+      "maxHeight": "60px",
+      "maxWidth": "60px"
+    }
+  },
+  "rich-text#buy-instructions__four--title":{
+    "title": "Buy instructions title",
+    "props":{
+      "text": "4&#46; En la puerta de tu casa",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-6"
+    }
+  },
+  "rich-text#buy-instructions__four--text":{
+    "title": "Buy instructions text",
+    "props":{
+      "text": "Si todo salió bien solo queda esperar a que el producto llegue a tu casa, si tienes inconvenientes **comunícate con nosotros.**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

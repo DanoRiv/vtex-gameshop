@@ -5,12 +5,18 @@
       "header-row#header__top--desktop",
       "header-row#header__main",
       "header-row#header__bottom--search"
-    ]
+    ],
+    "props":{
+      "blockClass": "header__desktop"
+    }
   },
   "header-row#header__bottom--search":{
     "children": [
       "header-spacer",
       "search-bar#header__search-bar"
-    ]
+    ],
+    "props":{
+      "blockClass": "header__bottom--desktop"
+    }
   }
 }
