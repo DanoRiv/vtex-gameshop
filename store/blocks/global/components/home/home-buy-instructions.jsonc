@@ -1,14 +1,31 @@
 {
   "flex-layout.row#home__buy-instructions": {
     "title": "Home buy instructions",
+    "children": ["flex-layout.col#home__buy-instructions"],
+    "props": {
+      "blockClass": "home__buy-instructions"
+    }
+  },
+  "flex-layout.col#home__buy-instructions": {
+    "title": "Home buy instructions rows container",
+    "children": [
+      "flex-layout.row#home__buy-instructions--sections",
+      "flex-layout.row#home__buy-instructions--button"
+    ]
+  },
+  "flex-layout.row#home__buy-instructions--sections": {
+    "title": "HOme buy instructions sections container",
     "children": [
       "flex-layout.col#home__buy-instructions--one",
       "flex-layout.col#home__buy-instructions--two",
       "flex-layout.col#home__buy-instructions--three",
       "flex-layout.col#home__buy-instructions--four"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__buy-instructions--sections"
+    }
   },
-  "flex-layout.col#home__buy-instructions--one":{
+  "flex-layout.col#home__buy-instructions--one": {
     "title": "Home buy instructions one",
     "children": [
       "image#buy-instructions__one",
@@ -16,10 +33,14 @@
       "rich-text#buy-instructions__one--text"
     ],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": [
+        "home__buy-instructions--one",
+        "home__buy-instructions-col"
+      ]
     }
   },
-  "image#buy-instructions__one":{
+  "image#buy-instructions__one": {
     "title": "Buy instructions image",
     "props": {
       "src": "assets/img/home-instructions-buy.png",
@@ -27,24 +48,26 @@
       "maxWidth": "60px"
     }
   },
-  "rich-text#buy-instructions__one--title":{
+  "rich-text#buy-instructions__one--title": {
     "title": "Buy instructions title",
-    "props":{
+    "props": {
       "text": "1&#46; Selecciona tu producto",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-6"
+      "font": "t-heading-6",
+      "blockClass": "buy-instructions__title"
     }
   },
-  "rich-text#buy-instructions__one--text":{
+  "rich-text#buy-instructions__one--text": {
     "title": "Buy instructions text",
-    "props":{
+    "props": {
       "text": "Selecciona cantidad, color o capacidad según tu producto y agrégalo al carrito de compras.",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass": "buy-instructions__text"
     }
   },
-  "flex-layout.col#home__buy-instructions--two":{
+  "flex-layout.col#home__buy-instructions--two": {
     "title": "Home buy instructions two",
     "children": [
       "image#buy-instructions__two",
@@ -52,10 +75,14 @@
       "rich-text#buy-instructions__two--text"
     ],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": [
+        "home__buy-instructions--two",
+        "home__buy-instructions-col"
+      ]
     }
   },
-  "image#buy-instructions__two":{
+  "image#buy-instructions__two": {
     "title": "Buy instructions image",
     "props": {
       "src": "assets/img/home-instructions-price.png",
@@ -63,24 +90,26 @@
       "maxWidth": "60px"
     }
   },
-  "rich-text#buy-instructions__two--title":{
+  "rich-text#buy-instructions__two--title": {
     "title": "Buy instructions title",
-    "props":{
+    "props": {
       "text": "2&#46; Llena tus datos",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-6"
+      "font": "t-heading-6",
+      "blockClass": "buy-instructions__title"
     }
   },
-  "rich-text#buy-instructions__two--text":{
+  "rich-text#buy-instructions__two--text": {
     "title": "Buy instructions text",
-    "props":{
+    "props": {
       "text": "Déjanos tus datos para realizar y hacer llegar el pedido, si ya eres cliente **inicia sesión** y continúa el proceso.",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass": "buy-instructions__text"
     }
   },
-  "flex-layout.col#home__buy-instructions--three":{
+  "flex-layout.col#home__buy-instructions--three": {
     "title": "Home buy instructions three",
     "children": [
       "image#buy-instructions__three",
@@ -88,10 +117,14 @@
       "rich-text#buy-instructions__three--text"
     ],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": [
+        "home__buy-instructions--three",
+        "home__buy-instructions-col"
+      ]
     }
   },
-  "image#buy-instructions__three":{
+  "image#buy-instructions__three": {
     "title": "Buy instructions image",
     "props": {
       "src": "assets/img/home-instructions-credit-card.png",
@@ -99,24 +132,26 @@
       "maxWidth": "60px"
     }
   },
-  "rich-text#buy-instructions__three--title":{
+  "rich-text#buy-instructions__three--title": {
     "title": "Buy instructions title",
-    "props":{
+    "props": {
       "text": "3&#46; Realiza tu pago",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-6"
+      "font": "t-heading-6",
+      "blockClass": "buy-instructions__title"
     }
   },
-  "rich-text#buy-instructions__three--text":{
+  "rich-text#buy-instructions__three--text": {
     "title": "Buy instructions text",
-    "props":{
+    "props": {
       "text": "Lo puedes hacer mediante tarjetas débito, crédito, consignación o transferencia directa.",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass": "buy-instructions__text"
     }
   },
-  "flex-layout.col#home__buy-instructions--four":{
+  "flex-layout.col#home__buy-instructions--four": {
     "title": "Home buy instructions four",
     "children": [
       "image#buy-instructions__four",
@@ -124,10 +159,14 @@
       "rich-text#buy-instructions__four--text"
     ],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": [
+        "home__buy-instructions--four",
+        "home__buy-instructions-col"
+      ]
     }
   },
-  "image#buy-instructions__four":{
+  "image#buy-instructions__four": {
     "title": "Buy instructions image",
     "props": {
       "src": "assets/img/home-instructions-delivery-truck.png",
@@ -135,21 +174,72 @@
       "maxWidth": "60px"
     }
   },
-  "rich-text#buy-instructions__four--title":{
+  "rich-text#buy-instructions__four--title": {
     "title": "Buy instructions title",
-    "props":{
+    "props": {
       "text": "4&#46; En la puerta de tu casa",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-6"
+      "font": "t-heading-6",
+      "blockClass": "buy-instructions__title"
     }
   },
-  "rich-text#buy-instructions__four--text":{
+  "rich-text#buy-instructions__four--text": {
     "title": "Buy instructions text",
-    "props":{
+    "props": {
       "text": "Si todo salió bien solo queda esperar a que el producto llegue a tu casa, si tienes inconvenientes **comunícate con nosotros.**",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass": "buy-instructions__text"
+    }
+  },
+  "flex-layout.row#home__buy-instructions--button": {
+    "title": "Home buy instructions sections container",
+    "children": ["flex-layout.col#home__buy-instructions--button"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "home__buy-instructions--button"
+    }
+  },
+  "flex-layout.col#home__buy-instructions--button": {
+    "title": "Home buying instructions store button",
+    "children": ["link#buy-instructions--button"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "buy-instructions--button"
+    }
+  },
+  "link#buy-instructions--button": {
+    "title": "buying instructions store link button",
+    "children": ["flex-layout.row#instructions__button--container"],
+    "props": {
+      "displayMode": "button",
+      "href": "/electrodomesticos",
+      "blockClass": "buy-instructions--button"
+    }
+  },
+  "flex-layout.row#instructions__button--container": {
+    "title": "Button label and icon container",
+    "children": ["rich-text#button__text", "icon#button__icon--cart"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "colSizing": "auto",
+      "blockClass": "instructions__button--container"
+    }
+  },
+  "icon#button__icon--cart": {
+    "title": "Button icon",
+    "props": {
+      "id": "hpa-cart",
+      "size": 16
+    }
+  },
+  "rich-text#button__text": {
+    "title": "Button text label",
+    "props": {
+      "text": "Ir a la tienda",
+      "blockClass": "button__text"
     }
   }
 }

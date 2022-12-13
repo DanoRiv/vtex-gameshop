@@ -129,6 +129,47 @@
   min-width : 160px;
 }
 
+/* Buying Instructions */
+
+.flexRow--home__buy-instructions {
+  margin-top      : 2rem;
+  padding-top     : 30px;
+  background-color: rgba(4, 1, 1, 0.06);
+  border-top      : 4px dotted rgb(3, 57, 104);
+}
+
+.flexRowContent--home__buy-instructions--sections {
+  align-items: baseline;
+}
+
+.flexCol--home__buy-instructions-col {
+  padding: 0 15px 30px;
+}
+
+.flexColChild--buy-instructions--button {
+  width : 10rem;
+  height: 5rem;
+  color : #fff;
+}
+
+.flexRow--home__buy-instructions--button::after {
+  content         : " ";
+  margin-top      : 1.6em;
+  margin-bottom   : 1.6em;
+  height          : 3px;
+  display         : block;
+  background-color: rgba(0, 0, 0, .1);
+  width           : 100%;
+  max-width       : 30px;
+  margin-left     : auto;
+  margin-right    : auto;
+}
+
+.flexRowContent--instructions__button--container {
+  align-items    : center;
+  justify-content: space-evenly;
+}
+
 @media screen and (max-width: 850px) {
   .flexRowContent--instagram__grid-row {
     display              : grid;
