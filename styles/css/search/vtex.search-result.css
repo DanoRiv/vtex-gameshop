@@ -1,4 +1,7 @@
 /* Product Summary Shelf styles */
+.gallery{
+  margin: 0;
+}
 
 .galleryItem {
   margin    : 30px 0;
