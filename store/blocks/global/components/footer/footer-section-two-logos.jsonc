@@ -4,6 +4,7 @@
     "props": {
       "url": "assets/img/footer-play-logo.png",
       "mobileWidth": 300,
+      "width": 300,
       "title": "Estado play Logo"
     }
   },
@@ -12,6 +13,7 @@
     "props": {
       "url": "assets/img/footer-ps-logo.png",
       "mobileWidth": 100,
+      "width": 100,
       "title": "Playstation Logo"
     }
   },
@@ -20,6 +22,7 @@
     "props": {
       "url": "assets/img/footer-xbox-logo.png",
       "mobileWidth": 100,
+      "width": 100,
       "title": "Xbox Logo"
     }
   },
@@ -28,6 +31,7 @@
     "props": {
       "url": "assets/img/footer-nintendo-logo.png",
       "mobileWidth": 100,
+      "width": 100,
       "title": "Nintendo Logo"
     }
   }

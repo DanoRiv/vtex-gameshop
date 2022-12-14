@@ -3,6 +3,7 @@
     "title": "Footer menu section one__store",
     "props": {
       "orientation": "vertical",
+      "blockClass": ["section-one__store", "footer__menu"],
       "items": [
         {
           "id": "menu-item-store",
@@ -71,6 +72,7 @@
     "title": "Footer menu section one__about-us",
     "props": {
       "orientation": "vertical",
+      "blockClass": ["section-one__about-us", "footer__menu"],
       "items": [
         {
           "id": "menu-item-about-us",

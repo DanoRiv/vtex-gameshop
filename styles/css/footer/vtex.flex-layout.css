@@ -1,29 +1,46 @@
-.flexRowContent--footer__section-one-container :global(.vtex-store-components-3-x-sizeMobile){
-  max-width: none;
-  max-height: none;
+.flexRow--footer__section-one-container {
+  padding-top: 30px;
 }
-.flexRowContent--footer__section-two-container :global(.vtex-store-components-3-x-sizeMobile){
-  max-width: none;
-  max-height: none;
+
+.flexCol--footer__section-one--customer-service {
+  height: fit-content;
+}
+
+.flexColChild--footer__section-one--store:first-child,
+.flexColChild--footer__section-one--customer-service:first-child {
+  height: 20% !important;
+}
+
+.flexRowContent--footer__section-two-container {
+  height: fit-content;
 }
 
 @media only screen and (max-width: 850px) {
-  .flexRowContent--footer__section-one-container{
+  .flexRowContent--footer__section-one-container {
     flex-direction: column;
+    width         : 100%;
   }
-  .flexRow--footer__section-two-container{
+
+  .flexRowContent--footer__section-one-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+  }
+
+  .flexRow--footer__section-two-container {
     height: fit-content;
   }
-  .flexRowContent--footer__section-two-container{
+
+  .flexRowContent--footer__section-two-container {
     flex-direction: column;
-    padding: 1rem 0 2rem;
+    padding       : 1rem 0 2rem;
   }
-  .flexRowContent--footer__section-two-container :global(.vtex-store-components-3-x-sizeMobile){
-    max-width: none;
+
+  .flexRowContent--footer__section-two-container :global(.vtex-store-components-3-x-sizeMobile) {
+    max-width : none;
     max-height: none;
   }
-  .flexRowContent--footer__section-one-container :global(.vtex-store-components-3-x-sizeMobile){
-    max-width: none;
+
+  .flexRowContent--footer__section-one-container :global(.vtex-store-components-3-x-sizeMobile) {
+    max-width : none;
     max-height: none;
   }
 }

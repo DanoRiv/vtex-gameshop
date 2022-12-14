@@ -2,7 +2,7 @@
   "flex-layout.row#footer__info--section-one": {
     "title": "Section one information and links",
     "children": [
-      "logo#footer__logo",
+      "flex-layout.col#footer__logo",
       "flex-layout.col#footer__section-one--store",
       "flex-layout.col#footer__section-one--customer-service",
       "flex-layout.col#footer__section-one--about-us"
@@ -11,12 +11,19 @@
       "blockClass": "footer__section-one-container"
     }
   },
+  "flex-layout.col#footer__logo": {
+    "title": "Footer logo",
+    "children": ["logo#footer__logo"]
+  },
   "flex-layout.col#footer__section-one--store": {
     "title": "Section one store",
     "children": [
       "rich-text#section-one__store--title",
       "menu#section-one__store"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer__section-one--store"
+    }
   },
   "flex-layout.col#footer__section-one--customer-service": {
     "title": "Section one customer service",
@@ -25,28 +32,37 @@
       "rich-text#section-one__customer-service--phone",
       "rich-text#section-one__customer-service--address",
       "rich-text#section-one__customer-service--hours"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer__section-one--customer-service"
+    }
   },
   "flex-layout.col#footer__section-one--about-us": {
     "title": "Section one about us",
     "children": [
       "rich-text#section-one__about-us--title",
       "menu#section-one__about-us"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer__section-one--about-us"
+    }
   },
   "rich-text#section-one__customer-service--phone": {
     "props": {
-      "text": "[(4) 4484438](tel:0344484438) &#45; [3234239023](tel:3234239023) [pedidos@gameshopvideojuegos.com](mailto:pedidos@gameshopvideojuegos.com)"
+      "text": "[(4) 4484438](tel:0344484438) &#45; [3234239023](tel:3234239023) \n [pedidos@gameshopvideojuegos.com](mailto:pedidos@gameshopvideojuegos.com)",
+      "blockClass": "customer-service--text"
     }
   },
   "rich-text#section-one__customer-service--address": {
     "props": {
-      "text": "**Carrera 48 10-45 Centro Comercial Monterrey Local 092.**"
+      "text": "**Carrera 48 10-45 Centro Comercial Monterrey Local 092.**",
+      "blockClass": "customer-service--text"
     }
   },
   "rich-text#section-one__customer-service--hours": {
     "props": {
-      "text": "**Horario de atención** Lunes a Sábado 10:00 a.m a 6:00 p.m"
+      "text": "**Horario de atención** \n Lunes a Sábado 10:00 a.m a 6:00 p.m",
+      "blockClass": "customer-service--text"
     }
   }
 }
