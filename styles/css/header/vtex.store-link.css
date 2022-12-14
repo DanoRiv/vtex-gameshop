@@ -3,7 +3,24 @@
   color          : rgba(102, 102, 102, .85);
   font-size      : .8em;
 }
-.link--socials__link{
+
+.link--socials__link {
   text-decoration: none;
-  color: rgba(102, 102, 102, .85);
+  color          : rgba(102, 102, 102, .85);
+}
+
+.buttonLink--menu__buttons {
+  background-color: #25d366;
+  border          : 1px solid #25d366;
+  border-radius   : 99px;
+  width           : fit-content !important;
+  font-size       : .87em;
+  padding         : 0 1.2em;
+  text-transform  : uppercase;
+  letter-spacing  : .03em;
+  font-weight     : bolder;
+}
+
+.label--menu__buttons {
+  padding: 0;
 }
