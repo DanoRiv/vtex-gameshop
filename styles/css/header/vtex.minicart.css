@@ -1,0 +1,14 @@
+.minicartCheckoutButton--menu__buttons--checkout {
+  padding: 0;
+}
+
+.minicartCheckoutButton--menu__buttons--checkout :global(.vtex-button) {
+  border-radius: 99px !important;
+  width        : fit-content;
+  font-size    : .87em;
+  padding      : 0 1.2em;
+}
+
+.minicartCheckoutButton :global(.vtex-button)::after {
+  content: "Carrito" !important;
+}

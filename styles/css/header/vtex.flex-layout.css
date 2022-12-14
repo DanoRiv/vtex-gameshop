@@ -18,7 +18,21 @@
 
 /* Mobile Drawer styles */
 
-.flexRowContent--mobile__menu--search-bar {
+.flexRowContent--mobile__menu--search-bar,
+.flexRow--menu__buttons {
   padding         : 0.5rem 1.25rem;
   background-color: #fff;
+}
+
+.flexRow--mobile__menu--buttons {
+  padding-bottom  : 30px;
+  background-color: #fff;
+}
+
+.flexColChild--mobile__menu--buttons {
+  border-top: 1px solid #ececec;
+}
+
+.flexRowContent--menu__buttons .stretchChildrenWidth {
+  justify-content: left;
 }

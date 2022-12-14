@@ -2,11 +2,87 @@
   "drawer#header__mobile--menu": {
     "title": "Mobile drawer",
     "props": {
-      "blockClass": "header__mobile--menu"
+      "blockClass": "header__mobile--menu",
+      "maxWidth": "260px"
     },
+    "children": ["flex-layout.row#header__mobile--menu"]
+  },
+  "flex-layout.row#header__mobile--menu": {
+    "title": "Header drawer mobile",
+    "children": ["flex-layout.col#header__mobile--menu"],
+    "props": {
+      "blockClass": "header__mobile--menu"
+    }
+  },
+  "flex-layout.col#header__mobile--menu": {
+    "title": "Header drawer container",
     "children": [
-      "search-bar#header__search-bar",
-      "menu#header__menu"
+      "flex-layout.row#mobile__menu--search-bar",
+      "flex-layout.row#mobile__menu--menu",
+      "flex-layout.row#mobile__menu--buttons"
     ]
+  },
+  "flex-layout.row#mobile__menu--search-bar": {
+    "title": "mobile drawer search bar",
+    "children": ["search-bar#header__search-bar"],
+    "props": {
+      "blockClass": "mobile__menu--search-bar"
+    }
+  },
+  "flex-layout.row#mobile__menu--menu": {
+    "title": "mobile drawer menu",
+    "children": ["menu#header__menu"],
+    "props": {
+      "blockClass": "mobile__menu--menu"
+    }
+  },
+  "flex-layout.row#mobile__menu--buttons": {
+    "title": "Mobile drawer buttons",
+    "children": ["flex-layout.col#mobile__menu--buttons"],
+    "props": {
+      "blockClass": "mobile__menu--buttons"
+    }
+  },
+  "flex-layout.col#mobile__menu--buttons": {
+    "title": "Mobile drawer buttons",
+    "children": [
+      "flex-layout.row#menu__buttons--checkout",
+      "flex-layout.row#menu__buttons--user"
+    ],
+    "props": {
+      "blockClass": "mobile__menu--buttons"
+    }
+  },
+  "flex-layout.row#menu__buttons--checkout": {
+    "title": "Drawer buttons",
+    "children": ["minicart-checkout-button#menu__buttons--checkout"],
+    "props": {
+      "blockClass": "menu__buttons"
+    }
+  },
+  "flex-layout.row#menu__buttons--user": {
+    "title": "Drawer buttons",
+    "children": ["link#menu__buttons--user"],
+    "props": {
+      "blockClass": "menu__buttons"
+    }
+  },
+  "minicart-checkout-button#menu__buttons--checkout": {
+    "props": {
+      "blockClass": "menu__buttons--checkout"
+    }
+  },
+  "link#menu__buttons--user": {
+    "title": "Go to user profile drawer button",
+    "props": {
+      "label": "Mi cuenta",
+      "href": "/account",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "regular"
+      },
+      "blockClass": "menu__buttons"
+    }
   }
 }
