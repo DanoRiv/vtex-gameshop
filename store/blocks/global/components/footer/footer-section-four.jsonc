@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#footer__section-four--copyright": {
+    "title": "Section five Copyright",
+    "children": ["rich-text#section-four__copyright"],
+    "props": {
+      "blockClass": "footer__section-four--copyright"
+    }
+  },
+  "rich-text#section-four__copyright": {
+    "title": "copyright",
+    "props": {
+      "text": "Copyright © 2019 [ GS GAMESHOP® ](https://web.archive.org/web/20220522233015/https://gameshopvideojuegos.com/) By [ 20S AGENCIA ](https://www.20sagencia.com/)",
+      "blockClass": "section-four__copyright"
+    }
+  }
+}

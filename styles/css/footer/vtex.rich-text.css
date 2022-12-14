@@ -33,3 +33,14 @@
   color          : #fff;
   word-break     : break-word;
 }
+
+.paragraph--section-four__copyright {
+  color    : rgba(255, 255, 255, .5);
+  margin   : 1rem;
+  font-size: .9em;
+}
+
+.link--section-four__copyright {
+  text-decoration: none;
+  color          : rgba(255, 255, 255, .5);
+}
