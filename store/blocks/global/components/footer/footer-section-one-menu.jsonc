@@ -10,7 +10,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/electrodomesticos",
             "tagTitle": "Tienda",
             "text": "Tienda"
           }
@@ -20,7 +20,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/electrodomesticos",
             "tagTitle": "Playstation",
             "text": "Playstation"
           }
@@ -30,7 +30,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/madera",
             "tagTitle": "Nintendo",
             "text": "Nintendo"
           }
@@ -40,7 +40,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/queso",
             "tagTitle": "XBOX",
             "text": "XBOX"
           }
@@ -50,7 +50,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/",
             "tagTitle": "Pre-venta",
             "text": "Pre-venta"
           }
@@ -60,7 +60,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/mujer",
             "tagTitle": "Accesorios",
             "text": "Accesorios"
           }
@@ -79,7 +79,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/quienes-somos",
             "tagTitle": "Quiénes somos",
             "text": "Quiénes somos"
           }
@@ -89,7 +89,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/terminos-y-condiciones-de-servicio-tecnico",
             "tagTitle": "Soporte",
             "text": "Soporte"
           }
@@ -99,7 +99,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/terminos-de-garantia",
             "tagTitle": "Términos de Devoluciones",
             "text": "Términos de Devoluciones"
           }
@@ -109,7 +109,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/terminos-de-garantia",
             "tagTitle": "Términos de Garantía",
             "text": "Términos de Garantía"
           }
@@ -119,7 +119,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/terminos-y-condiciones-de-servicio-tecnico",
             "tagTitle": "Términos y condiciones del servicio técnico",
             "text": "Términos y condiciones del servicio técnico"
           }
@@ -129,7 +129,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/terminos-y-condiciones-de-servicio-tecnico",
             "tagTitle": "Términos de Servicio",
             "text": "Términos de Servicio"
           }
@@ -139,7 +139,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/terminos-y-condiciones-de-servicio-tecnico",
             "tagTitle": "Términos de Pedidos",
             "text": "Términos de Pedidos"
           }
@@ -149,7 +149,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/terminos-de-garantia",
             "tagTitle": "Políticas de Foro",
             "text": "Políticas de Foro"
           }
@@ -159,7 +159,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/terminos-y-condiciones-de-servicio-tecnico",
             "tagTitle": "Políticas de privacidad y tratamiento de datos",
             "text": "Políticas de privacidad y tratamiento de datos"
           }

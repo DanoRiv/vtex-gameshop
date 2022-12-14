@@ -5,7 +5,9 @@
       "footer-spacer",
       "flex-layout.row#footer__categories-logos--section-two",
       "footer-spacer",
-      "flex-layout.row#footer__payment-logos--section-three"
+      "flex-layout.row#footer__payment-logos--section-three",
+      "flex-layout.row#footer__section-four--copyright"
+
     ]
   }
 }
