@@ -2,6 +2,15 @@
 
 [Gameshop](https://web.archive.org/web/20220522233015/https://gameshopvideojuegos.com/) is a videogames and technology e-commerce, the intention of this project is to successfully clone the store using VTEX IO's native and custom components.
 
+## Desktop View 
+![desktop view](https://res.cloudinary.com/dannt/image/upload/v1671167113/vtex-gs/danigameshop--itgloberspartnercl.myvtex.com__mmy4iu.png)
+
+## Tablet View
+![tablet view](https://res.cloudinary.com/dannt/image/upload/v1671170316/vtex-gs/tablet-view2_z3ejwx.gif)
+
+## Phone View
+![phone view](https://res.cloudinary.com/dannt/image/upload/v1671169560/vtex-gs/phone-view2_fncyva.gif)
+
 ## Native Dependencies
 
 ### Dependencies
