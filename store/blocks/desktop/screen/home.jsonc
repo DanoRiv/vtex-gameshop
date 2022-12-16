@@ -11,7 +11,7 @@
     ]
   },
   "responsive-layout.desktop#home__instagram-grid--desktop": {
-    "title": "Instagram Grid",
+    "title": "Instagram Grid desktop",
     "children": [
       "rich-text#home__instagram-grid",
       "flex-layout.row#home__instagram-grid--one",

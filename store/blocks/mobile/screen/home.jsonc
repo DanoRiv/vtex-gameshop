@@ -7,7 +7,7 @@
     ]
   },
   "responsive-layout.mobile#home__instagram-grid--mobile": {
-    "title": "Instagram Grid",
+    "title": "Instagram Grid Mobile",
     "children": [
       "rich-text#home__instagram-grid",
       "flex-layout.row#home__instagram-grid--one",
