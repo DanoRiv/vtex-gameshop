@@ -50,6 +50,10 @@
   margin: 0 -55% 0 .5em;
 }
 
+.wrapper--instagram__grid{
+  width: fit-content;
+}
+
 .wrapper--instagram_grid--text {
   position        : absolute;
   bottom          : 0;
