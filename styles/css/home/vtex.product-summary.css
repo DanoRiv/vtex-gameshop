@@ -1,3 +1,8 @@
-.imageContainer{
+.imageContainer,
+.imageNormal {
   min-height: 100px;
+}
+
+.imageNormal {
+  max-height: 180px
 }
