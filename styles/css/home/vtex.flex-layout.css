@@ -173,6 +173,13 @@
   justify-content: space-evenly;
 }
 
+/* Reviews Slider */
+
+.flexRow--home__reviews-summary{
+  background-color: var(--bg-primary);
+  height: 300px;
+}
+
 @media screen and (max-width: 850px) {
   .flexRowContent--instagram__grid-row {
     display              : grid;

@@ -1,0 +1,181 @@
+{
+  "flex-layout.row#home__reviews-summary": {
+    "title": "Reviews summary",
+    "children": ["slider-layout#home__reviews-summary"],
+    "props": {
+      "blockClass": "home__reviews-summary",
+      "verticalAlign": "center"
+    }
+  },
+  "slider-layout#home__reviews-summary": {
+    "title": "Reviews slider",
+    "children": [
+      "flex-layout.row#reviews-summary__container--first",
+      "flex-layout.row#reviews-summary__container--second",
+      "flex-layout.row#reviews-summary__container--third",
+      "flex-layout.row#reviews-summary__container--fourth"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "autoplay": {
+        "timeout": 2000
+      },
+      "blockClass": "reviews-summary__slider"
+    }
+  },
+  "flex-layout.row#reviews-summary__container--first": {
+    "title": "Reviews summary container first",
+    "children": ["flex-layout.col#reviews-summary__container--first"]
+  },
+  "flex-layout.col#reviews-summary__container--first": {
+    "children": [
+      "image#reviews-summary__first--stars",
+      "rich-text#reviews-summary__first--text",
+      "rich-text#reviews-summary__first--source"
+    ]
+  },
+  "image#reviews-summary__first--stars": {
+    "title": "Reviews summary stars",
+    "props": {
+      "src": "assets/img/home-star-review.png",
+      "alt": "review stars",
+      "maxWidth": "80px",
+      "maxHeight": "16px"
+    }
+  },
+  "rich-text#reviews-summary__first--text": {
+    "title": "review text",
+    "props": {
+      "text": "”Un **gran servicio**, ojala a futuro tengan más sedes en Medellín o Antioquia”.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "textColor": "c-on-base--inverted"
+    }
+  },
+  "rich-text#reviews-summary__first--source": {
+    "title": "review text",
+    "props": {
+      "text": "Facebook",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "textColor": "c-on-base--inverted"
+    }
+  },
+  "flex-layout.row#reviews-summary__container--second": {
+    "title": "Reviews summary container second",
+    "children": ["flex-layout.col#reviews-summary__container--second"]
+  },
+  "flex-layout.col#reviews-summary__container--second": {
+    "children": [
+      "image#reviews-summary__second--stars",
+      "rich-text#reviews-summary__second--text",
+      "rich-text#reviews-summary__second--source"
+    ]
+  },
+  "image#reviews-summary__second--stars": {
+    "title": "Reviews summary stars",
+    "props": {
+      "src": "assets/img/home-star-review.png",
+      "alt": "review stars",
+      "maxWidth": "80px",
+      "maxHeight": "16px"
+    }
+  },
+  "rich-text#reviews-summary__second--text": {
+    "title": "review text",
+    "props": {
+      "text": "”Un **gran servicio**, ojala a futuro tengan más sedes en Medellín o Antioquia”.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "textColor": "c-on-base--inverted"
+    }
+  },
+  "rich-text#reviews-summary__second--source": {
+    "title": "review text",
+    "props": {
+      "text": "Facebook",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "textColor": "c-on-base--inverted"
+    }
+  },
+  "flex-layout.row#reviews-summary__container--third": {
+    "title": "Reviews summary container third",
+    "children": ["flex-layout.col#reviews-summary__container--third"]
+  },
+  "flex-layout.col#reviews-summary__container--third": {
+    "children": [
+      "image#reviews-summary__third--stars",
+      "rich-text#reviews-summary__third--text",
+      "rich-text#reviews-summary__third--source"
+    ]
+  },
+  "image#reviews-summary__third--stars": {
+    "title": "Reviews summary stars",
+    "props": {
+      "src": "assets/img/home-star-review.png",
+      "alt": "review stars",
+      "maxWidth": "80px",
+      "maxHeight": "16px"
+    }
+  },
+  "rich-text#reviews-summary__third--text": {
+    "title": "review text",
+    "props": {
+      "text": "“He comprado un ps4 pro y la atención fue genial. Por ahora todo muy bien y de maravilla”.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "textColor": "c-on-base--inverted"
+    }
+  },
+  "rich-text#reviews-summary__third--source": {
+    "title": "review text",
+    "props": {
+      "text": "Facebook",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "textColor": "c-on-base--inverted"
+    }
+  },
+  "flex-layout.row#reviews-summary__container--fourth": {
+    "title": "Reviews summary container fourth",
+    "children": ["flex-layout.col#reviews-summary__container--fourth"]
+  },
+  "flex-layout.col#reviews-summary__container--fourth": {
+    "children": [
+      "image#reviews-summary__fourth--stars",
+      "rich-text#reviews-summary__fourth--text",
+      "rich-text#reviews-summary__fourth--source"
+    ]
+  },
+  "image#reviews-summary__fourth--stars": {
+    "title": "Reviews summary stars",
+    "props": {
+      "src": "assets/img/home-star-review.png",
+      "alt": "review stars",
+      "maxWidth": "80px",
+      "maxHeight": "16px"
+    }
+  },
+  "rich-text#reviews-summary__fourth--text": {
+    "title": "review text",
+    "props": {
+      "text": "“Excelente servicio, cuentan con excelentes precios y muy buenas promociones. Calidad y confiabilidad.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "textColor": "c-on-base--inverted"
+    }
+  },
+  "rich-text#reviews-summary__fourth--source": {
+    "title": "review text",
+    "props": {
+      "text": "Facebook",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "textColor": "c-on-base--inverted"
+    }
+  }
+}
