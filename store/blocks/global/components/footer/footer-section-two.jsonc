@@ -2,13 +2,29 @@
   "flex-layout.row#footer__categories-logos--section-two": {
     "title": "Section two brands logos",
     "children": [
-      "logo#footer__play-logo",
-      "logo#footer__ps-logo",
-      "logo#footer__xbox-logo",
-      "logo#footer__nintendo-logo"
+      "flex-layout.col#footer__play-logo",
+      "flex-layout.col#footer__ps-logo",
+      "flex-layout.col#footer__xbox-logo",
+      "flex-layout.col#footer__nintendo-logo"
     ],
     "props": {
       "blockClass": "footer__section-two-container"
     }
+  },
+  "flex-layout.col#footer__play-logo": {
+    "title": "Section two play logo",
+    "children": ["logo#footer__play-logo"]
+  },
+  "flex-layout.col#footer__ps-logo": {
+    "title": "Section two play logo",
+    "children": ["logo#footer__ps-logo"]
+  },
+  "flex-layout.col#footer__xbox-logo": {
+    "title": "Section two play logo",
+    "children": ["logo#footer__xbox-logo"]
+  },
+  "flex-layout.col#footer__nintendo-logo": {
+    "title": "Section two play logo",
+    "children": ["logo#footer__nintendo-logo"]
   }
 }

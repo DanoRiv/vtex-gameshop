@@ -6,8 +6,7 @@
       "flex-layout.row#product__info-and-filter",
       "flex-layout.row#product__description",
       "flex-layout.row#product__specifications",
-      "flex-layout.row#product__reviews-and-ratings",
-      "flex-layout.row#product__related-products"
+      "flex-layout.row#product__reviews-and-ratings"
     ]
   },
   "flex-layout.row#product__info-and-filter": {
@@ -50,9 +49,5 @@
       "text": "Valoraciones",
       "blockClass": "product__footer--title"
     }
-  },
-  "flex-layout.row#product__related-products": {
-    "title": "Related products",
-    "children": []
   }
 }

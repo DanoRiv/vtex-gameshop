@@ -1,3 +1,14 @@
-.imageContainer{
+.imageContainer,
+.imageNormal {
   min-height: 100px;
+}
+
+.imageNormal {
+  max-height: 180px
+}
+
+@media screen and (max-width: 639px) {
+  .imageContainer{
+    min-height: 180px;
+  }
 }

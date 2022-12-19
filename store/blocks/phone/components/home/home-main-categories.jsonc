@@ -23,9 +23,6 @@
     "title": "PS category link container",
     "props": {
       "blockClass": ["main-categories_phone", "home__categories-ps"]
-      // "verticalAlign": "center",
-      // "horizontalAlign": "center",
-      // "width": "70%"
     },
     "children": ["image#home__ps--logo"]
   },
@@ -33,9 +30,6 @@
     "title": "Nintendo category link container",
     "props": {
       "blockClass": ["main-categories_phone", "home__categories-nintendo"]
-      // "verticalAlign": "center",
-      // "horizontalAlign": "center",
-      // "width": "70%"
     },
     "children": ["image#home__nintendo--logo"]
   },
@@ -43,9 +37,6 @@
     "title": "Xbox category link container",
     "props": {
       "blockClass": ["main-categories_phone", "home__categories-xbox"]
-      // "verticalAlign": "center",
-      // "horizontalAlign": "center",
-      // "width": "70%"
     },
     "children": ["image#home__xbox--logo"]
   }

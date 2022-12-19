@@ -3,7 +3,8 @@
     "children": [
       "flex-layout.row#footer__info--section-one",
       "flex-layout.row#footer__categories-logos--section-two",
-      "flex-layout.row#footer__payment-logos--section-three"
+      "flex-layout.row#footer__payment-logos--section-three",
+      "flex-layout.row#footer__section-four--copyright"
     ]
   }
 }

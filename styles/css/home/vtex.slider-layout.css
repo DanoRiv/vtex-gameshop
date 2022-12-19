@@ -30,3 +30,20 @@
   background-color: transparent;
   border: none;
 }
+
+/* Slider layout home reviews */
+
+.sliderLayoutContainer--reviews-summary__slider{
+  top: 80px;
+}
+
+.paginationDotsContainer--reviews-summary__slider .paginationDot{
+  background-color: transparent;
+  border: 2px solid #cacbcc;
+}
+
+.paginationDotsContainer--reviews-summary__slider .paginationDot--isActive {
+  background-color: #fff;
+  border-color: #fff;
+}
+

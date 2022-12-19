@@ -1,15 +1,13 @@
 .menuContainer--menu-desktop {
-  flex-wrap            : wrap;
-  -webkit-box-pack     : start;
-  -ms-flex-pack        : start;
-  justify-content      : flex-start;
-  width                : 100%;
-  position             : relative;
-  -webkit-box-orient   : horizontal;
-  -webkit-box-direction: normal;
-  flex-flow            : row wrap;
-  /* -webkit-box-align    : center;
-  align-items          : center; */
+  flex-wrap               : wrap;
+  -webkit-box-pack        : start;
+  -ms-flex-pack           : start;
+  justify-content         : flex-start;
+  width                   : 100%;
+  position                : relative;
+  -webkit-box-orient      : horizontal;
+  -webkit-box-direction   : normal;
+  flex-flow               : row wrap;
 }
 
 .menuItem--menu-desktop {
@@ -31,15 +29,15 @@
 }
 
 .styledLinkContent--menu-desktop {
-  text-transform: uppercase;
-  color         : #033968;
-  font-weight   : 700;
-  font-size     : .8em;
-  letter-spacing: .02em;
-  line-height   : 16px;
-  transition: all .2s;
+  text-transform   : uppercase;
+  color            : #033968;
+  font-weight      : 700;
+  font-size        : .8em;
+  letter-spacing   : .02em;
+  line-height      : 16px;
+  transition       : all .2s;
   -webkit-box-align: center;
-  align-items          : center;
+  align-items      : center;
 }
 
 .menuItem--link-has-hover:hover .styledLink--link-has-hover::before {
@@ -47,26 +45,47 @@
   background-color: #046ec2;
   width           : 100%;
   opacity         : 1;
-  color: #046ec2;
+  color           : #046ec2;
 }
 
 .styledLink--link-has-hover::before {
-  content         : " ";
-  position        : absolute;
-  top             : 0;
-  left            : 50%;
-  transform       : translateX(-50%);
-  transition      : all .3s;
-  height          : 3px;
-  box-sizing      : border-box;
+  content   : " ";
+  position  : absolute;
+  top       : 0;
+  left      : 50%;
+  transform : translateX(-50%);
+  transition: all .3s;
+  height    : 3px;
+  box-sizing: border-box;
 }
 
-.styledLink--link-has-hover:hover{
+.styledLink--link-has-hover:hover {
   color: #046ec2
 }
 
 @media only screen and (max-width: 1025px) {
   .menuContainer--menu-mobile {
-    flex-direction: column;
+    flex-direction  : column;
+    background-color: rgba(255, 255, 255, 0.980);
+  }
+
+  .menuItem--menu-mobile {
+    padding   : 15px 0 15px 20px;
+    margin    : 0;
+    border-top: 1px solid #ececec;
+    transition: background-color .3s;
+  }
+
+  .styledLinkContainer--menu-mobile {
+    padding: 0;
+  }
+
+  .styledLinkContent--menu-mobile {
+    font-weight   : 700;
+    font-size     : .8em;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    color         : rgba(102, 102, 102, .85);
+    transition    : all .2s;
   }
 }

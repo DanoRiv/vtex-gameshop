@@ -1,0 +1,20 @@
+{
+  "store.custom#terms-of-support": {
+    "blocks": ["flex-layout.row#pdf-reader__container"]
+  },
+  "flex-layout.row#pdf-reader__container":{
+    "title": "Terms of Support pdf reader",
+    "children": ["flex-layout.col#pdf-reader__container"]
+  },
+  "flex-layout.col#pdf-reader__container":{
+    "title": "PDF reader",
+    "children": ["pdf-reader"]
+  },
+  "pdf-reader":{
+    "props": {
+      "pdfUrl": "assets/documents/terms-of-support.pdf",
+      "width": 500,
+      "height": 800
+    }
+  }
+}

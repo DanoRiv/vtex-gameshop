@@ -41,13 +41,14 @@
   border-bottom   : 2px solid;
   color           : currentColor;
   opacity         : .1;
-  /* height       : 5px;
-  opacity         : .1;
-  background-color: red; */
 }
 
 .container--home__title::after {
   margin: 0 -55% 0 .5em;
+}
+
+.wrapper--instagram__grid{
+  width: fit-content;
 }
 
 .wrapper--instagram_grid--text {
@@ -62,6 +63,33 @@
   transition      : .5s ease;
   overflow        : scroll;
   text-overflow   : clip;
+}
+
+.wrapper--buy-instructions__title {
+  color      : #046ec2;
+  font-weight: 700;
+  font-size  : 1em;
+}
+
+.wrapper--buy-instructions__text {
+  color        : #777;
+  width        : 100%;
+  margin-top   : 0;
+  margin-bottom: 0.5em;
+}
+
+.wrapper--button__text {
+  color         : #fff;
+  padding-right : 0.5em;
+  text-transform: uppercase;
+  font-size     : .77em;
+  cursor        : pointer;
+  font-weight   : bolder;
+  text-align    : center;
+}
+
+.paragraph--button__text {
+  margin: 0.5em 0;
 }
 
 @media screen and (max-width: 850px) {

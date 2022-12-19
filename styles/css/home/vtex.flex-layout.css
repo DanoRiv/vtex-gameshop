@@ -2,6 +2,8 @@
   background-color: #000;
 }
 
+/* Main categories section */
+
 .flexRow--home__main-categories {
   height: 14rem;
   width : 100%;
@@ -93,6 +95,7 @@
 /* Home Instagram Grid  */
 .flexRow--instagram__grid-row {
   padding: 0 .5em;
+  margin : 0 10px 30px 0;
 }
 
 .flexRowContent--instagram__grid-row {
@@ -129,16 +132,59 @@
   min-width : 160px;
 }
 
+/* Buying Instructions */
+
+.flexRow--home__buy-instructions {
+  margin-top      : 2rem;
+  padding-top     : 30px;
+  background-color: rgba(4, 1, 1, 0.06);
+  border-top      : 4px dotted rgb(3, 57, 104);
+}
+
+.flexRowContent--home__buy-instructions--sections {
+  align-items: baseline;
+}
+
+.flexCol--home__buy-instructions-col {
+  padding: 0 15px 30px;
+}
+
+.flexColChild--buy-instructions--button {
+  width : 10rem;
+  height: 5rem;
+  color : #fff;
+}
+
+.flexRow--home__buy-instructions--button::after {
+  content         : " ";
+  margin-top      : 1.6em;
+  margin-bottom   : 1.6em;
+  height          : 3px;
+  display         : block;
+  background-color: rgba(0, 0, 0, .1);
+  width           : 100%;
+  max-width       : 30px;
+  margin-left     : auto;
+  margin-right    : auto;
+}
+
+.flexRowContent--instructions__button--container {
+  align-items    : center;
+  justify-content: space-evenly;
+}
+
+/* Reviews Slider */
+
+.flexRow--home__reviews-summary{
+  background-color: var(--bg-primary);
+  height: 300px;
+}
+
 @media screen and (max-width: 850px) {
   .flexRowContent--instagram__grid-row {
     display              : grid;
     grid-template-columns: 33.333% 33.333% 33.3333%;
   }
-
-  /* .flexRowContent--instagram__grid-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
-    flex: 33.33333%;
-    flex-shrink: 1;
-  } */
 }
 
 @media screen and (max-width: 550px) {
@@ -147,7 +193,4 @@
     grid-template-columns: 50% 50%;
   }
 
-  /* .flexRowContent--instagram__grid-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
-    flex: 45%;
-  } */
 }
