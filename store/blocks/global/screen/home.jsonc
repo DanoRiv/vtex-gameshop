@@ -17,8 +17,6 @@
       "flex-layout.row#home__reviews-summary",
       "flex-layout.row#home__bottom-banner",
       "whatsapp-button"
-
-      // "modal-trigger#home__modal--trigger"
     ]
   },
   "flex-layout.row#home__bottom-banner": {
