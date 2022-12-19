@@ -8,8 +8,6 @@
   -webkit-box-orient      : horizontal;
   -webkit-box-direction   : normal;
   flex-flow               : row wrap;
-  /* -webkit-box-align    : center;
-  align-items             : center; */
 }
 
 .menuItem--menu-desktop {

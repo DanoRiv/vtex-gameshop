@@ -6,8 +6,7 @@
       "flex-layout.row#product__info",
       "flex-layout.row#product__description",
       "flex-layout.row#product__specifications",
-      "flex-layout.row#product__reviews-and-ratings",
-      "flex-layout.row#product__related-products"
+      "flex-layout.row#product__reviews-and-ratings"
     ]
   }
 }

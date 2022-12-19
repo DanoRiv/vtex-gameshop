@@ -2,7 +2,21 @@
   "store.product": {
     "children": [
       "responsive-layout.desktop#product--desktop",
-      "responsive-layout.mobile#product--mobile"
+      "responsive-layout.mobile#product--mobile",
+      "shelf.relatedProducts#product__related"
     ]
+  },
+  "shelf.relatedProducts#product__related":{
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "recommendation": "view",
+      "productList": {
+          "titleText": "Productos Relacionados",
+          "itemsPerPage": 4
+      },
+      "hideOutOfStockItems": true,
+      "blockClass": "product__related",
+      "showPaginationDots": "false"
+  }
   }
 }

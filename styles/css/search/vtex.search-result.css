@@ -1,5 +1,5 @@
 /* Product Summary Shelf styles */
-.gallery{
+.gallery {
   margin: 0;
 }
 
@@ -137,5 +137,18 @@
 @media screen and (max-width: 1025px) {
   .orderByButton {
     margin: 16px 0;
+  }
+
+  .galleryItem {
+    flex-basis: 33.333% !important;
+    max-width : 33.333% !important;
+  }
+}
+
+@media screen and (max-width: 639px) {
+
+  .galleryItem {
+    flex-basis: 50% !important;
+    max-width : 50% !important;
   }
 }

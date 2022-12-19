@@ -42,25 +42,4 @@
     },
     "children": ["image#home__xbox--logo"]
   }
-  // "image#home__ps--logo": {
-  //   "title": "playstation logo",
-  //   "props": {
-  //     "src": "assets/img/home-ps-logo.png",
-  //     "maxHeight": "140px"
-  //   }
-  // },
-  // "image#home__nintendo--logo": {
-  //   "title": "nintendo logo",
-  //   "props": {
-  //     "src": "assets/img/home-nintendo-logo.png",
-  //     "maxHeight": "140px"
-  //   }
-  // },
-  // "image#home__xbox--logo": {
-  //   "title": "xbox logo",
-  //   "props": {
-  //     "src": "assets/img/home-xbox-logo.png",
-  //     "maxHeight": "140px"
-  //   }
-  // }
 }
